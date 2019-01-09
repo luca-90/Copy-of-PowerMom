@@ -164,7 +164,7 @@ $(document).ready(function() {
       $('[obj-name="B25Back"]').hide(); // Block#: 5z/DT,1Wan_^=W+3eig6
       $('[obj-name="B25Cancel"]').hide(); // Block#: T0aRvL?5;iIT8qEEkp[J
       $('[obj-name="B25Next"]').hide(); // Block#: o?q%,*S|;3][b32k!m{}
-      $('[obj-name="B25Skip"]').hide(); // Block#: Ua/upq#!Z,awJI7E%U.x
+      $('[obj-name="B25Skip"]').hide(); // Block#: E-Hg14wt*^x[|grw0s{Q
       $('[obj-name="L25Title"]').hide();
     });
   }
@@ -206,15 +206,15 @@ $(document).ready(function() {
    */
   function S23HideObjects() {
     return new Promise(function(resolve, reject) {
-      // Block#: P/V;-o5//0B=`.M3bV=B
-      $('[obj-name="B23Back"]').hide(); // Block#: 79WuJ-e1-fBrhD,A%=|S
-      $('[obj-name="B23Cancel"]').hide(); // Block#: GXcVa|P-Y`X5D|fUtYE6
-      $('[obj-name="B23Skip"]').hide(); // Block#: w42%x*swVftuyb8(])m{
-      $('[obj-name="B23Next"]').hide(); // Block#: 3$YGH}AS1e8.KHub7{wW
+      // Block#: 3vLpV@bu=]lMLEkh|=@I
+      $('[obj-name="B23Back"]').hide(); // Block#: ~5fYg;3G2x4`X#/HjgVX
+      $('[obj-name="B23Cancel"]').hide(); // Block#: kBP|H9~OH=t`Vw8s#^eE
+      $('[obj-name="B23Skip"]').hide(); // Block#: DW}v9VrxcMf8%v.eWO)n
+      $('[obj-name="B23Next"]').hide(); // Block#: biDzQ]D2Eq)}=~@9UVsm
       $('[obj-name="L23Units"]').hide(); // Block#: e,::f[RWrQ84jG{oh/cT
       $('[obj-name="L23Title"]').hide(); // Block#: g6NE!J=bgv$8OWFf7dTG
-      $('[obj-name="L23Error"]').hide(); // Block#: VycU?lIH{bZCshS@xE=k
-      $('[obj-name="L23Question"]').hide(); // Block#: (2L~2%/[+pPU}f(H;C^I
+      $('[obj-name="L23Error"]').hide(); // Block#: p-5bL;9e!Z`,dedMSkR+
+      $('[obj-name="L23Question"]').hide(); // Block#: 7Y}Py)ykq3VXT9O,PEYx
       $('[obj-name="T23Text"]').hide();
     });
   }
@@ -226,7 +226,7 @@ $(document).ready(function() {
       // Block#: XNZ.o/;j|QMQgV;Bx)qX
       S25HideObjects().then(response => {;
       });
-      // Block#: )+a!*Q8fc=(t`I}Xj3Hz
+      // Block#: k]27v$xn+8mcFRIA$knm
       _that.currentProperty = getOutcomeName('B25BNone');
       // Block#: H7l93EXwC2At(68h:CfA
       if(_that.currentProperty != null) {
@@ -236,42 +236,42 @@ $(document).ready(function() {
       }
       // Block#: gsx|%?X%p3}p+IEfZo4k
       _that.currentProperty = getOutcomeName('B25Back');
-      // Block#: FE.fb2iY15Cx1Vt:OG9$
+      // Block#: ?+K[,+NKR]T}6sIjb2,3
       if(_that.currentProperty != null) {
-        // Block#: $@wXXzf92F6,ByCXCDfp
+        // Block#: 6!YK%z|IBWj::s){k/P;
         $('[obj-name="B25Back"]').show(); // Block#: v5(^Ba*3-;OQmi)C%*Zs
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Back", _that.currentProperty);
       }
-      // Block#: t;)j`pdY^,J0+rmi^PkH
+      // Block#: -!2qgmuenY=OgOU{`fFm
       _that.currentProperty = getOutcomeName('B25Cancel');
-      // Block#: }?]Ujo^ZQ$@%I[nruq@7
+      // Block#: rsNfWb:XW69ijnZgA*#j
       if(_that.currentProperty != null) {
-        // Block#: #[inFF`@n/0Zo{!Pu`,o
-        $('[obj-name="B25Cancel"]').show(); // Block#: N?AW@en;yI8lx}w3`WIF
+        // Block#: 23?#S!+;=)Cj=t+R@h~C
+        $('[obj-name="B25Cancel"]').show(); // Block#: $rqwwbpTIj.S_oB1mK;x
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Cancel", _that.currentProperty);
       }
-      // Block#: _Ze?z@SZ=yS1^9M09s5Z
+      // Block#: RXN4?V)e=9vB8w8Alf9+
       _that.currentProperty = getOutcomeName('B25Next');
-      // Block#: d[Ld?,SyS0c)46lFw:nk
+      // Block#: b,MT-C44+`]E%GUO[]N*
       if(_that.currentProperty != null) {
-        // Block#: KO/+@$U1WrX}AR[pz~d?
-        $('[obj-name="B25Next"]').show(); // Block#: [GjaL@C?c)g9w}7KTwd,
+        // Block#: 6N`]4LbvRIsPp*^T;Wr|
+        $('[obj-name="B25Next"]').show(); // Block#: [d,m?4934pa}2n5bi9Ux
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Next", _that.currentProperty);
       }
-      // Block#: Hl;Y(aT`g?AO-:acvSv}
+      // Block#: y1kKfqBX^kvhfrI}Qspn
       _that.currentProperty = getOutcomeName('B25Skip');
-      // Block#: :T_M::A~wG_J~%Vz(gs:
+      // Block#: hgEmn8Dm3d}6OX;:2jxw
       if(_that.currentProperty != null) {
-        // Block#: zTQLSv9Vh#Au@vioPL]!
-        $('[obj-name="B25Skip"]').show(); // Block#: 8Q}m{]3F#xnisgXn^#~=
+        // Block#: k/98l8PEI?xqpWCv5^p/
+        $('[obj-name="B25Skip"]').show(); // Block#: ^IrrgTRpW)`/`}]nzW+6
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Skip", _that.currentProperty);
       }
-      // Block#: Dtu3vV1FJwv8yt?fvqoz
+      // Block#: q5)sR,21A}=Rswb:UnCz
       _that.currentProperty = getFormProperty('title');
-      // Block#: (HSd,iZP}b=noRMK]PN4
+      // Block#: p[MM+/Idy}w[%nwF[m|y
       if(_that.currentProperty != null) {
-        // Block#: G[16SUT;*[7;.N.gDi_v
-        $('[obj-name="L25Title"]').show(); // Block#: X##y=^OgxCw+Mc,dnxjL
+        // Block#: {Ke!(0DMsSr3CqnbBQc`
+        $('[obj-name="L25Title"]').show(); // Block#: 1!gMzDCA1P#6/n|@Hc!,
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L25Title", _that.currentProperty);
       }
       // Block#: N{UE3#eA%xtbw4oDyu;#
@@ -936,43 +936,43 @@ $(document).ready(function() {
       // Block#: do:79G}@IH(vyadbBZ}7
       S23HideObjects().then(response => {;
       });
-      // Block#: A!%2GcF[1YgM8+%[qaRP
+      // Block#: iG+s[IJ*z[(Y)|wP!b{a
       _that.currentProperty = getOutcomeName('B23Back');
-      // Block#: Q4Ur|vC=P![}+5S/x*VE
+      // Block#: glKqd!.Pdcx=IlYV:n1h
       if(_that.currentProperty != null) {
-        // Block#: {va@+,D.4`ZhGhO-pL@b
+        // Block#: 5AwlF8L7w0u@v=HcpGj0
         $('[obj-name="B23Back"]').show();
       }
-      // Block#: ev]H~@4I$E:u;^]ZHoJu
+      // Block#: Io/3__}b!J%LzB(f%B/{
       _that.currentProperty = getOutcomeName('B23Cancel');
-      // Block#: b[%qM($hNQ@?L=]Vc/Av
+      // Block#: ~;M`IZ^WkKMn?S0KYIWD
       if(_that.currentProperty != null) {
-        // Block#: @A_7[zB]|il[.fh+SGWY
-        $('[obj-name="B23Cancel"]').show(); // Block#: |xt8Qt[4RGO|oX:`~19C
+        // Block#: a.Y*pW;DN[{2jV~PDoW;
+        $('[obj-name="B23Cancel"]').show(); // Block#: {63S(Y[nm`1Fi0~S~JA3
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B23Cancel", _that.currentProperty);
       }
-      // Block#: B@nH[~?0lNgBhqwBwEdz
+      // Block#: ~WM`Zvb?IMybOf]]Ycc^
       _that.currentProperty = getOutcomeName('B23Next');
-      // Block#: mGk~a%|$ZN%T-R]HTo.8
+      // Block#: N*X,)de5b5nx68jS}Tji
       if(_that.currentProperty != null) {
-        // Block#: Hc{uaP9U7,MHu[9p+pH:
-        $('[obj-name="B23Next"]').show(); // Block#: weSt2TRk/F]xr@-VkWyT
+        // Block#: 2WAFKro1FT;B)`lZS((v
+        $('[obj-name="B23Next"]').show(); // Block#: zTW8f`F-q;wzH,+IS5gt
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B23Next", _that.currentProperty);
       }
-      // Block#: XdyaKRE1pRnwuB0Iqbdp
+      // Block#: fpsW]hh1XoaAkPwGJN$W
       _that.currentProperty = getOutcomeName('B23Skip');
-      // Block#: C+1jbDe3nb-Qe8z{3A,s
+      // Block#: P,H*ScS[d%jJ*=+$VH^V
       if(_that.currentProperty != null) {
-        // Block#: |X7BBw/G_?-z:jwGTF)C
-        $('[obj-name="B23Skip"]').show(); // Block#: hN=uka@yd+HS[6H$Th:t
+        // Block#: 41*L?.Xgvq%V,=l;ah#{
+        $('[obj-name="B23Skip"]').show(); // Block#: j0yePV-?;VO}RK3hz(h?
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B23Skip", _that.currentProperty);
       }
-      // Block#: :`_U7x$b_;8d[^!2s..j
+      // Block#: ]R:Q9kG|,`48jDa^225G
       _that.currentProperty = getFormProperty('title');
-      // Block#: +YuxLqjtn8hKBIJilf],
+      // Block#: dG@I0zJew5x2f.X,I_K^
       if(_that.currentProperty != null) {
-        // Block#: Dd`Wj|JyJj*pc*ZeVn^m
-        $('[obj-name="L23Title"]').show(); // Block#: ]x8$5UZ:^XLGEBW9Cx|G
+        // Block#: M.pjEDP$ATC:EghCj?[Z
+        $('[obj-name="L23Title"]').show(); // Block#: V69L5Sl;$P+n+#9;BwPX
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Title", _that.currentProperty);
       }
       // Block#: [5JwiDaJ$Y`lduby:5/p
@@ -982,15 +982,15 @@ $(document).ready(function() {
         // Block#: KmhD,A?og={B!VNC3DBZ
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Error", _that.currentProperty);
       }
-      // Block#: X-r,SJASmAwTlH?;2)k~
+      // Block#: mb{^/`fE%5lMp!v:Rb?D
       _that.currentProperty = getFormProperty('L23Units');
-      // Block#: i@_nX}fW=xtXsKViSPEw
+      // Block#: Ld.R14.[F)%SvwSbi#,d
       if(_that.currentProperty != null) {
-        // Block#: MJRJzT*bDq;*=Sq3G{y$
-        $('[obj-name="L23Units"]').show(); // Block#: wx!j{7^}ii*x9uk`gVT)
+        // Block#: DuzSXo._=vD1e-xv`0VQ
+        $('[obj-name="L23Units"]').show(); // Block#: nO.n]?U#on+eIp;zm9zM
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Units", _that.currentProperty);
       }
-      // Block#: |V%G}f({`V}4fLufAnK#
+      // Block#: QS(j:j_VgZ:*:yn|,4Jg
       _that.inputType = getFormField('answer1', 'type');
       // Block#: $By8OpH`3hJPrlBw%25K
       console.log(String('Answer Type') + String(_that.inputType));
@@ -998,8 +998,8 @@ $(document).ready(function() {
         _that.debugService.traces.push(String('Answer Type') + String(_that.inputType));
         _that.debugService.printLog();
       }
-      // Block#: {5nio{wn~f0*y!@5*9*n
-      $('[obj-name="L23Question"]').show(); // Block#: bShg{a8z9p,365^*fc%Q
+      // Block#: 0n#6A?ed~}_1oaLj5;Im
+      $('[obj-name="L23Question"]').show(); // Block#: t%plT;m#U0dwVk%=/xQM
       com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Question", (getFormField('answer1', 'name'))); // Block#: [pOXKX39XV6Vy7UpqnBc
       if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text')) {
         // Block#: UfUs].P4zx-0tuZ:!?Sr
@@ -1011,7 +1011,7 @@ $(document).ready(function() {
           _that.selectionMade = true;
         }
       }
-      // Block#: :Xwk~Xt`t(^S~Z-~MB,2
+      // Block#: 7CT3+@Qn=2fZEg1C,/I*
       $('[obj-name="T23Text"]').show(); // Block#: bs^xVQx2lHWJ6H}e]tn9
       _that.currentProperty = getFormProperty('validationType');
       // Block#: @Kej8{_mbZ3a}@]3#^$z
@@ -1026,7 +1026,7 @@ $(document).ready(function() {
         }
         // Block#: I(OQT#;5a:O`xP_+l0n$
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.validationType, "EQUAL", '2digits')) {
-          // Block#: {,GJQ}e33~_{nE|3M,5A
+          // Block#: =y?ii7_C=@zK4iu#yx1T
           com.fc.JavaScriptDistLib.Textbox.setProperty["Input type"]("T23Text", 'numeric'); // Block#: =%oovL$+JErc#D;ku~9U
           com.fc.JavaScriptDistLib.Textbox.setProperty["Max chars"]("T23Text", 2);
         } else if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.validationType, "EQUAL", '3digits')) {
@@ -1976,41 +1976,41 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__authorize2(dataTypesList) {
     return new Promise(function(resolve, reject) {
-      // Block#: Z/:%Hz1e-:}ODGEwEaJ*
+      // Block#: 0Q7sk)wX:q8B:ldPz]Ng
       if(com.fc.JavaScriptDistLib.HealthKit.isAvailable()) {
-        // Block#: KxDSLNIY$!rGtv!OEN=9
+        // Block#: w~2{kEA6m$[L,#fp2qUp
         com.fc.JavaScriptDistLib.HealthKit.authorize(dataTypesList,
           function() {
-            // Block#: j,;/]F1I)8I|qocI}CmG
-            com.fc.JavaScriptDistLib.Storage.add('isHealthKitAuthorized', true) // Block#: N+QF+[vGD!O7EpmFSCb*
+            // Block#: 5+)y92z39(Hn-zbJI3Z:
+            com.fc.JavaScriptDistLib.Storage.add('isHealthKitAuthorized', true) // Block#: |u~%0)k%XQdzET05%xh1
             resolve({
               name: "success",
               data: null
             });
           },
           function(error_data) {
-            // Block#: z`D@V];WZ2+E5zHK,Y`Z
+            // Block#: #;JMJ?iD@UbSQgypP-a=
             resolve({
               name: "Error",
               data: error_data
             });
           });
       } else {
-        // Block#: vUm}jD2eW;~{w^S#ex[J
+        // Block#: C7_f*jf4JBLN}6;O2/JY
         HealthDashboardLib__authorizationStarted().then(response => {;
         });
-        // Block#: Pe(@7/PA|myy.Dtvp|+w
+        // Block#: ;@pkR?Q(7!8HHQNv3Ar0
         com.fc.JavaScriptDistLib.GoogleFit.authorize(dataTypesList, '1008513698691-l2u1m7poj7rm9q5si9dg3eklh03rdjn9.apps.googleusercontent.com', 'Y0EeQxWVPqa--zrY30QtP-r2', 'https://develop.snapp.click',
           function() {
-            // Block#: GIj=-Zn}NKeNTJkdg#at
-            com.fc.JavaScriptDistLib.Storage.add('isHealthKitAuthorized', false) // Block#: n~ZQ7FovJ3F3^06~G]#Z
+            // Block#: QsPKmCVmV9f@MeG?7({:
+            com.fc.JavaScriptDistLib.Storage.add('isHealthKitAuthorized', false) // Block#: wu;dceF=wOuraam:3mE%
             resolve({
               name: "success",
               data: null
             });
           },
           function(error_data) {
-            // Block#: l70[TwXY$DOw5P)JoX:0
+            // Block#: m`J38Ljn@{erGQ[]pG4^
             resolve({
               name: "Error",
               data: error_data
@@ -2024,23 +2024,23 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__fetchStepsFromHealthKit2() {
     return new Promise(function(resolve, reject) {
-      // Block#: BI0}A*.0dNES_,iGW^GX
+      // Block#: bN*AMpwN{k8HCU*Jz4D|
       _that.HealthDashboardLib_stepsreadings = [];
-      // Block#: qPW;Sv#ZKv/P=d@i`p,/
+      // Block#: (y/}[r!B$,uXA@_Y6{/A
       _that.HealthDashboardLib_endDate = (com.fc.JavaScriptDistLib.MomentLibrary());
-      // Block#: {I[8r@/FH#cY`%~GH}Wi
+      // Block#: 8YssM}@:?P@9v#)8=NfM
       _that.HealthDashboardLib_startDate = (com.fc.JavaScriptDistLib.TimeLibrary.subtractIntervalFromTime(_that.HealthDashboardLib_endDate, (com.fc.JavaScriptDistLib.TimeLibrary.createTimeInterval(0, 0, 0, 7, 0, 0))));
-      // Block#: (gXycJ[{`C5=)kMKU$4B
+      // Block#: T-4/+8AnO$lTQySMMl=*
       com.fc.JavaScriptDistLib.HealthKit.readHistoricalData(_that.HealthDashboardLib_startDate, _that.HealthDashboardLib_endDate, [('com.apple.step_count.delta')],
         function(data) {
-          // Block#: )5,P?.4-h_6Sayft6cJ@
+          // Block#: Mnx0{qaaSJs@:#4?J6i{
           _that.HealthDashboardLib_stepsreadings = data;
-          // Block#: cWm|2hbp]YA%YXBF7nta
+          // Block#: N#Wpa3g$vrt/=0BYJ3i3
           HealthDashboardLib__displaySteps().then(response => {;
           });
         },
         function(error_data) {
-          // Block#: j_6hINt+nD(OgtHqC*k?
+          // Block#: o-UB9(aGA|Kbk1*Ji!GG
           $('[obj-name="connectButton"]').show();
         });
     });
@@ -2050,70 +2050,70 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__displaySteps2() {
     return new Promise(function(resolve, reject) {
-      // Block#: ztteE?x;xSY3dM~qkCt*
+      // Block#: 1DHr+947PxWJ=0.jd,Gf
       if(com.fc.JavaScriptDistLib.HealthKit.isAvailable()) {
-        // Block#: }`9viLnCD#DY{ZLjXD~{
+        // Block#: y;pnt9!tb_KvUb2)*L(A
         if((com.fc.JavaScriptDistLib.Storage.getValue('isHealthKitAuthorized')) != null) {
-          // Block#: xDy((6S}#7A1DarZc/Xo
+          // Block#: 5~6YC[Xm+9LDRTaRK97+
           if(com.fc.JavaScriptDistLib.Storage.getValue('isHealthKitAuthorized')) {
-            // Block#: @8w+7.)$d!?7/]tkV)f%
+            // Block#: /^x5l%$YsDDJ[yGv1^QP
             $('[obj-name="connectButton"]').hide();
           }
         } else {
-          // Block#: ,u4X?hJ_Q9I/h5lytFvd
+          // Block#: @t@U1e)7ND(tu$e!Xd]y
           $('[obj-name="connectButton"]').show();
         }
       } else {
-        // Block#: CHut4/.8(rH@~TN:^3$z
+        // Block#: J?@+wQ:u|UKOMMt{X=,^
         if(com.fc.JavaScriptDistLib.GoogleFit.isAuthorized()) {
-          // Block#: `Q.^MeBqhG_j)Q]UWHEk
+          // Block#: $SZhF`c:/p`1)xP%}ka`
           $('[obj-name="connectButton"]').hide();
         } else {
-          // Block#: KndR:!On8PHxA}lt)5t8
+          // Block#: !qc|~-]w`g;uzBSwsr}l
           $('[obj-name="connectButton"]').show();
         }
       }
-      // Block#: @zp+^q3gH|*Y_?Nv^*0C
+      // Block#: 4HOGsPdSIzFqHXnN!9C7
       if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_stepsreadings.length, "GT", 0)) {
-        // Block#: GSghflsTR@,[uzOdK}=H
+        // Block#: ~1Z[c(OZ!%7Y74-+Izho
         _that.HealthDashboardLib_stepsdays = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_stepsreadings, String('$.[*].') + String('startdate')));
-        // Block#: !9E+YZ5~IX||eo3]w+6U
+        // Block#: EMrRIOty@8Xt(M$71~8A
         var index_end12 = _that.HealthDashboardLib_stepsdays.length - 1;
         var index_inc12 = 1;
         if(0 > index_end12) {
           index_inc12 = -index_inc12;
         }
         for(index = 0; index_inc12 >= 0 ? index <= index_end12 : index >= index_end12; index += index_inc12) {
-          // Block#: 09]^U)96VO[iGREqnXcs
+          // Block#: s([XR=8fiW.Hk~yq^0fb
           _that.HealthDashboardLib_stepsdays[index] = (com.fc.JavaScriptDistLib.TimeLibrary.textFromTime((com.fc.JavaScriptDistLib.TimeLibrary.createTimeFromTimestamp((_that.HealthDashboardLib_stepsdays[index]))), "DATE_US"));
         }
-        // Block#: vC6^/uxoW9C2G3yfvpur
+        // Block#: }0$?wAgn?`yT^tua*im|
         _that.HealthDashboardLib_stepscount = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_stepsreadings, String('$.[*].') + String('steps')));
-        // Block#: jL5TKl^G]Qz@X8:@^x]h
+        // Block#: .QI#@LN;5Tn0jkgSii)M
         _that.HealthDashboardLib_stepsplot = (com.fc.JavaScriptDistLib.GraphContainer.createChartWithList('stepsgraph', _that.HealthDashboardLib_stepsdays, _that.HealthDashboardLib_stepscount, 'steps'));
-        // Block#: |A^qHd1h0^03c@C_d.od
-        _that.HealthDashboardLib_stepsplot // Block#: [c;`-td,{+U~;s$o.676
+        // Block#: +u=j,4#BswFv/kz{_6@y
+        _that.HealthDashboardLib_stepsplot // Block#: EoZe1aYIQx~,-6^j;RSr
         com.fc.JavaScriptDistLib.GraphContainer.addChartTransition('stepsgraph', 500, 500); // Imported from Lib: StatisticsLibrary
-        // Block#: S%4U^YRK]BOlu.K3)$^4
+        // Block#: [H@xf$4TK1F@**wfJ+-c
         HealthDashboardLib__StatisticsLibrary__average(_that.HealthDashboardLib_stepscount).then(response => {;
           if(response.name === "value") {
-            // Block#: uzvqs?ks_:SX8Ot.vOD}
+            // Block#: %)%MH.RLxKL,0NXz?@6e
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("avgreadingvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data))));
           }
         });
         // Imported from Lib: StatisticsLibrary
-        // Block#: MlSmw?OI9@U`!aEK!lvN
+        // Block#: ecRDH#+?O6VE-ro--T:c
         HealthDashboardLib__StatisticsLibrary__max(_that.HealthDashboardLib_stepscount).then(response => {;
           if(response.name === "value") {
-            // Block#: I*~5.UiFXepP96f_5c*3
+            // Block#: m6}je13#i]_iib+DXIw_
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("maxreadingvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(response.data)));
           }
         });
         // Imported from Lib: StatisticsLibrary
-        // Block#: VFHul`*WoM([!1J;uU(H
+        // Block#: bdzfdMY|vb4i2XOeN;57
         HealthDashboardLib__StatisticsLibrary__min(_that.HealthDashboardLib_stepscount).then(response => {;
           if(response.name === "value") {
-            // Block#: 7FV!GC3Mar2dK#!vdklT
+            // Block#: a1pMelBoRxTbM%QElm,y
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("minreadingvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(response.data)));
           }
         });
@@ -2125,23 +2125,23 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__StatisticsLibrary__average2(list) {
     return new Promise(function(resolve, reject) {
-      // Block#: !99tPA$s~A;9e0t,Z4?a
+      // Block#: d^XLYcQ;y6wD$M(r4GX$
       _that.HealthDashboardLib_StatisticsLibrary_averageValue = 0;
-      // Block#: @2^pt:97vPJ`w)YTM{4o
+      // Block#: {ku$3Np(mC.pf}+Y90.I
       var index_end13 = list.length - 1;
       var index_inc13 = 1;
       if(0 > index_end13) {
         index_inc13 = -index_inc13;
       }
       for(index = 0; index_inc13 >= 0 ? index <= index_end13 : index >= index_end13; index += index_inc13) {
-        // Block#: 9%2}^M^XXexX]t41fm{Z
+        // Block#: pP0yf!=sN*qmsJU{`z*8
         _that.HealthDashboardLib_StatisticsLibrary_averageValue = _that.HealthDashboardLib_StatisticsLibrary_averageValue + list[index];
       }
-      // Block#: 5k,Lfw$Ve33tIg$;%YUI
+      // Block#: *,nZ{=$%Ky[F*cmQnGR{
       if(list.length != 0) {
-        // Block#: Nda3|Fo__4b6BvX:Y}o/
+        // Block#: K*cR^;_vZSoB8=-?yD?^
         _that.HealthDashboardLib_StatisticsLibrary_averageValue = _that.HealthDashboardLib_StatisticsLibrary_averageValue / list.length;
-        // Block#: aQ4[{s)N6wti2tTF5bK6
+        // Block#: Q)qp2@J;{l[xIlF_5[m@
         resolve({
           name: "value",
           data: _that.HealthDashboardLib_StatisticsLibrary_averageValue
@@ -2154,22 +2154,22 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__StatisticsLibrary__max2(list) {
     return new Promise(function(resolve, reject) {
-      // Block#: (K{-N,Z:z=J+./.wJe#=
+      // Block#: A[tcjI7tsws$;is6i;~W
       _that.HealthDashboardLib_StatisticsLibrary_maxValue = list[0];
-      // Block#: ^7|b`7cYgBJ|}g|^:*/!
+      // Block#: lw@+F6jk;}:{x+!6|r#{
       var index_end14 = list.length - 1;
       var index_inc14 = 1;
       if(0 > index_end14) {
         index_inc14 = -index_inc14;
       }
       for(index = 0; index_inc14 >= 0 ? index <= index_end14 : index >= index_end14; index += index_inc14) {
-        // Block#: n_*f?jcue;Vms7I}gPtO
+        // Block#: [bBJn1B`|1N(v4%#DZ:g
         if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(list[index], "GT", _that.HealthDashboardLib_StatisticsLibrary_maxValue)) {
-          // Block#: sRn{Q@Es`P`m`@U5XFB.
+          // Block#: r7x[NR[hcic/Fq74-kQ3
           _that.HealthDashboardLib_StatisticsLibrary_maxValue = list[index];
         }
       }
-      // Block#: VapsF=DZ-dRM!zKcmBM.
+      // Block#: =fm-aOp+VkUDR$MC%U9x
       resolve({
         name: "value",
         data: _that.HealthDashboardLib_StatisticsLibrary_maxValue
@@ -2181,22 +2181,22 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__StatisticsLibrary__min2(list) {
     return new Promise(function(resolve, reject) {
-      // Block#: s8K|]K)a%NR]n%,{p#_n
+      // Block#: 8o~$#16@d:n{1C-gbZ`Q
       _that.HealthDashboardLib_StatisticsLibrary_minValue = list[0];
-      // Block#: Vg-Y0#8.6R0RebGcvCyY
+      // Block#: I%Nz!Xv{OV9fF(0+M`NJ
       var index_end15 = list.length - 1;
       var index_inc15 = 1;
       if(0 > index_end15) {
         index_inc15 = -index_inc15;
       }
       for(index = 0; index_inc15 >= 0 ? index <= index_end15 : index >= index_end15; index += index_inc15) {
-        // Block#: .%7G4)mx){Ca#,*8j7(v
+        // Block#: yrvD$rJq`U0JXJMmPZW.
         if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(list[index], "LT", _that.HealthDashboardLib_StatisticsLibrary_minValue)) {
-          // Block#: a,3-~qP#]Rs[m%RE}+;Y
+          // Block#: 7EsOcJPm`_+N-?h^Ssd}
           _that.HealthDashboardLib_StatisticsLibrary_minValue = list[index];
         }
       }
-      // Block#: LgNqo]pLb/Zwga!;:2MY
+      // Block#: HxP3Ftw1cyr?mlk/0N#l
       resolve({
         name: "value",
         data: _that.HealthDashboardLib_StatisticsLibrary_minValue
@@ -2208,24 +2208,24 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__fetchStepsFromGoogleFit2() {
     return new Promise(function(resolve, reject) {
-      // Block#: |0BeltZs|]Ug3Qt.~r)z
+      // Block#: 8uo]WPZ|^/=A?$F^85Z1
       _that.HealthDashboardLib_stepsreadings = [];
-      // Block#: |Ud[2TeEJ18PNcK?Ylb0
+      // Block#: udvtDqoiJY$2tOV).?HY
       _that.HealthDashboardLib_endDate = (com.fc.JavaScriptDistLib.MomentLibrary());
-      // Block#: 7:jf~K?55==14fctC0IT
+      // Block#: 1orDOt9:anBSf~/43YA)
       _that.HealthDashboardLib_startDate = (com.fc.JavaScriptDistLib.TimeLibrary.subtractIntervalFromTime(_that.HealthDashboardLib_endDate, (com.fc.JavaScriptDistLib.TimeLibrary.createTimeInterval(0, 0, 0, 7, 0, 0))));
-      // Block#: dc/C?](Gqc?$Wv9=+_pR
+      // Block#: /pIsfl~sHsN!yWahK@;Q
       com.fc.JavaScriptDistLib.GoogleFit.readHistoricalData(_that.HealthDashboardLib_startDate, _that.HealthDashboardLib_endDate, [('com.google.step_count.delta')],
         function(data) {
-          // Block#: _UtJq:jZ}G+F$BeJunXF
+          // Block#: s^dlSrvcF5,fh^5z0F??
           _that.HealthDashboardLib_stepsreadings = data;
-          // Block#: NCi!qJ8vLJ+QY]KO(4q9
+          // Block#: e[yeKd+VVlp[nV!9=qL.
           HealthDashboardLib__displaySteps().then(response => {;
           });
         },
         function(error_data) {
-          // Block#: RKM!;K.cB0LP1sq(!nZp
-          $('[obj-name="connectButton"]').show(); // Block#: pqTklXbeK/l9X.*}4{u7
+          // Block#: n:B!wZt2xZyL8?5HCs~h
+          $('[obj-name="connectButton"]').show(); // Block#: #~H[XYVp}=:zxDKIip8k
           com.fc.JavaScriptDistLib.GoogleFit.deAuthorize();
         });
     });
@@ -2235,80 +2235,80 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__displayBP2() {
     return new Promise(function(resolve, reject) {
-      // Block#: )]bs/R-7$$N-4EgVF8rF
+      // Block#: QOCt5ed?Aw,Bz;:LKNPD
       if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_bpsystolicreadings.length, "GT", 0)) {
-        // Block#: w8n7}LUCn,Lyl-8Rnn]h
+        // Block#: !(+%kx)Ut;*N/HAqf#Sb
         _that.HealthDashboardLib_bpdaysclean = [];
-        // Block#: qpOD(N}?4[g^vzkR,LjM
+        // Block#: ~7@c+_)1x)LB*sG$b+nz
         _that.HealthDashboardLib_bysystoliclistclean = [];
-        // Block#: Q.BVLz~tpE/89L%CoIJ7
+        // Block#: C6.VhBvbXjRc{(;-XLrO
         _that.HealthDashboardLib_bpdiastoliclistclean = [];
-        // Block#: /,4==)`/e/[zYgxk?|;c
+        // Block#: $_*#v{OI!lJ63E9v!0t=
         _that.HealthDashboardLib_bpsystolicdays = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_bpsystolicreadings, String('$.[*].') + String('timestamp')));
-        // Block#: tgA4]#;WL8y)zVhaTjcQ
+        // Block#: GXBHkc`%W8J5Dr14}7U#
         _that.HealthDashboardLib_bpsystoliclist = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_bpsystolicreadings, String('$.[*].') + String('value')));
-        // Block#: ODIkz2%MXw*B6$IQx/X4
+        // Block#: qhdTb|8d+Us3K?8Cy0.F
         _that.HealthDashboardLib_bpdiastolicdays = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_bpdiastolicreadings, String('$.[*].') + String('timestamp')));
-        // Block#: 6;Z5aS5bnBj=s./oPI;m
+        // Block#: }[l_LPprj;ae*mEA+xtj
         _that.HealthDashboardLib_bpdiastoliclist = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_bpdiastolicreadings, String('$.[*].') + String('value')));
-        // Block#: ?-uBPaz`]~GY24F7s8iN
+        // Block#: :e:k?%8.lztgbw{||A?8
         var index_end16 = _that.HealthDashboardLib_bpdiastolicdays.length - 1;
         var index_inc16 = 1;
         if(0 > index_end16) {
           index_inc16 = -index_inc16;
         }
         for(index = 0; index_inc16 >= 0 ? index <= index_end16 : index >= index_end16; index += index_inc16) {
-          // Block#: {CWkt.QQBaRZ9b=1Me64
+          // Block#: E(3%gRJcC3z|~nT6R3U8
           _that.HealthDashboardLib_tempString = _that.HealthDashboardLib_bpdiastolicdays[index];
-          // Block#: J[Npo7qPHwLU;p0),U;K
+          // Block#: ~a%y1m(pcwa8g:8lkr8:
           if(com.fc.JavaScriptDistLib.ListLibrary.listContains(_that.HealthDashboardLib_bpsystolicdays, _that.HealthDashboardLib_tempString)) {
-            // Block#: 8[nCn2K,yY0n5Ip7byeJ
+            // Block#: H}OdSUV]`LlZJE4}!gEW
             com.fc.JavaScriptDistLib.ListLibrary.listAdd(_that.HealthDashboardLib_bpdaysclean, _that.HealthDashboardLib_tempString)
-            // Block#: =|`%3ErD1tSC8C:EjJi1
+            // Block#: oSZ.n:0*DnA1FZoaN|H)
             com.fc.JavaScriptDistLib.ListLibrary.listAdd(_that.HealthDashboardLib_bpdiastoliclistclean, _that.HealthDashboardLib_bpdiastoliclist[index])
           }
         }
-        // Block#: ;K}F)6Y0/;D1QBM:3pbQ
+        // Block#: !=#BX!_baf)[kq3{/Brn
         var index_end17 = _that.HealthDashboardLib_bpsystolicdays.length - 1;
         var index_inc17 = 1;
         if(0 > index_end17) {
           index_inc17 = -index_inc17;
         }
         for(index = 0; index_inc17 >= 0 ? index <= index_end17 : index >= index_end17; index += index_inc17) {
-          // Block#: {h9U7Co-R@p0{Tkn$UOM
+          // Block#: tsm?3B7_8RE]Y~KaV7EV
           _that.HealthDashboardLib_tempString = _that.HealthDashboardLib_bpsystolicdays[index];
-          // Block#: Aw_w!1%XsvQN(f8)}8sf
+          // Block#: [bz]vR6UHi64i),6G`to
           if(com.fc.JavaScriptDistLib.ListLibrary.listContains(_that.HealthDashboardLib_bpdaysclean, _that.HealthDashboardLib_tempString)) {
-            // Block#: $qL7_E~_[:r0[v(Wyb=J
+            // Block#: wel^m+Z0ZY@_i;k-E@;d
             com.fc.JavaScriptDistLib.ListLibrary.listAdd(_that.HealthDashboardLib_bysystoliclistclean, _that.HealthDashboardLib_bpsystoliclist[index])
           }
         }
-        // Block#: Mm|nF^kHxj6.SFsJ3]`-
+        // Block#: ][Is4#,?ga1cceO/bl_O
         _that.HealthDashboardLib_bpsystolicplot = (com.fc.JavaScriptDistLib.GraphContainer.createChartWithList('bpgraph', _that.HealthDashboardLib_bpdaysclean, _that.HealthDashboardLib_bysystoliclistclean, 'bpsystolic'));
-        // Block#: /9tUZRA(,$!{5){Lgjoj
+        // Block#: U)x`^5_w3dr)|Y$^_Z=b
         _that.HealthDashboardLib_bpdiastolicplot = (com.fc.JavaScriptDistLib.GraphContainer.createChartWithList('bpgraph', _that.HealthDashboardLib_bpdaysclean, _that.HealthDashboardLib_bpdiastoliclistclean, 'bpdiastolic'));
-        // Block#: G~qI+NKdtiF+EmJSzL8=
+        // Block#: s]VG3J8gj:PSeX2OftbE
         console.log(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bpdaysclean));
         if(_that.debugService && _that.debugService.active) {
           _that.debugService.traces.push(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bpdaysclean));
           _that.debugService.printLog();
         }
-        // Block#: 7hQqkkDRFfE}5dwN;2SN
+        // Block#: goj4M|7lKa/_W4B3@s4+
         console.log(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bysystoliclistclean));
         if(_that.debugService && _that.debugService.active) {
           _that.debugService.traces.push(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bysystoliclistclean));
           _that.debugService.printLog();
         }
-        // Block#: .]1Jpo](Ln[5}Ng*2TJ%
+        // Block#: Q5Qz,nmk6bx|6aaL!_CH
         console.log(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bpdiastoliclistclean));
         if(_that.debugService && _that.debugService.active) {
           _that.debugService.traces.push(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bpdiastoliclistclean));
           _that.debugService.printLog();
         }
-        // Block#: ?Ius42{%Y_2[J!KilPEv
-        _that.HealthDashboardLib_bpsystolicplot // Block#: I~4bH)Sm_=/Ml7E%}FAH
-        _that.HealthDashboardLib_bpdiastolicplot // Block#: ;l.IPhqk`AA6G|kWF:)A
-        com.fc.JavaScriptDistLib.GraphContainer.addChartTransition('bpgraph', 500, 500); // Block#: r@mDOYfmppZu[CjohbT~
+        // Block#: WHnXY3Z!D2KjLZYb9WyD
+        _that.HealthDashboardLib_bpsystolicplot // Block#: i8qK5z4e0/(xv}oNn3da
+        _that.HealthDashboardLib_bpdiastolicplot // Block#: o567iSxxb*T^!y2F`78G
+        com.fc.JavaScriptDistLib.GraphContainer.addChartTransition('bpgraph', 500, 500); // Block#: ^`xk~v0NjYMvz/7i$Dyn
         HealthDashboardLib__computeStatsForBP().then(response => {;
         });
       }
@@ -2320,48 +2320,48 @@ $(document).ready(function() {
   function HealthDashboardLib__computeStatsForBP2() {
     return new Promise(function(resolve, reject) {
       // Imported from Lib: StatisticsLibrary
-      // Block#: (@F51~:QnRxO!0SJ%K7d
+      // Block#: 5HMd3f$DjgC,Z`%BbC:1
       HealthDashboardLib__StatisticsLibrary__average(_that.HealthDashboardLib_bpsystoliclist).then(response => {;
         if(response.name === "value") {
-          // Block#: 0%q:;j)l{kWz1kuB[oJ^
+          // Block#: hdxrC;eG1*:pD+cY(f;%
           _that.HealthDashboardLib_avgsystolic = (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)));
           // Imported from Lib: StatisticsLibrary
-          // Block#: m`,v}w1^F[lIBYHsmH40
+          // Block#: $J.[/n$if0@x;nZsPRt7
           HealthDashboardLib__StatisticsLibrary__average(_that.HealthDashboardLib_bpdiastoliclist).then(response => {;
             if(response.name === "value") {
-              // Block#: |P,%2)XUNEeGyp2v=0k/
+              // Block#: ~@kSFn@f1oPo0YW^{+.b
               com.fc.JavaScriptDistLib.Label.setProperty["Text"]("avgbpvalue", ([_that.HealthDashboardLib_avgsystolic, '/', (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)))].join('')));
             }
           });
         }
       });
       // Imported from Lib: StatisticsLibrary
-      // Block#: A@i9FqRL1JD}0]G,K-uM
+      // Block#: AK/BA,IXUGKH+[#3;|Dq
       HealthDashboardLib__StatisticsLibrary__max(_that.HealthDashboardLib_bpsystoliclist).then(response => {;
         if(response.name === "value") {
-          // Block#: *U,7XX!-Opy_[9.SF]|,
+          // Block#: F:F(Zpe1`-ZKf*gjp^J(
           _that.HealthDashboardLib_maxsystolic = (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)));
           // Imported from Lib: StatisticsLibrary
-          // Block#: ~Jt|vsW~;sV,(SbdZ8=8
+          // Block#: i;6~x0}u.aLV@?_ju|.y
           HealthDashboardLib__StatisticsLibrary__max(_that.HealthDashboardLib_bpdiastoliclist).then(response => {;
             if(response.name === "value") {
-              // Block#: X@X..cYu[Gy++LOH_M-V
+              // Block#: }9O,on1A-T*vyAj9=h9C
               com.fc.JavaScriptDistLib.Label.setProperty["Text"]("maxbpvalue", ([_that.HealthDashboardLib_maxsystolic, '/', (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)))].join('')));
             }
           });
         }
       });
       // Imported from Lib: StatisticsLibrary
-      // Block#: ]oi~#B|8uFeMiZE6=v1E
+      // Block#: ]zWu]k])DV)pV^.DQpZg
       HealthDashboardLib__StatisticsLibrary__min(_that.HealthDashboardLib_bpsystoliclist).then(response => {;
         if(response.name === "value") {
-          // Block#: Z1!{+aU|[?8/?SyEOcLC
+          // Block#: MSUeNpECe,!.AIc+yhPN
           _that.HealthDashboardLib_minsystolic = (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)));
           // Imported from Lib: StatisticsLibrary
-          // Block#: RCRz4-3HX=+93gUpFx}x
+          // Block#: 8cTHr[RdoFU!YXEZIX@}
           HealthDashboardLib__StatisticsLibrary__min(_that.HealthDashboardLib_bpdiastoliclist).then(response => {;
             if(response.name === "value") {
-              // Block#: ,}{tNM2n!z-At/CUJ)Gz
+              // Block#: ~!:n4^y(U2`]V(06w5ll
               com.fc.JavaScriptDistLib.Label.setProperty["Text"]("minbpvalue", ([_that.HealthDashboardLib_minsystolic, '/', (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)))].join('')));
             }
           });
@@ -2374,50 +2374,50 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__displayWeight2() {
     return new Promise(function(resolve, reject) {
-      // Block#: /^Z{yjtX9tn:blzYCc5I
+      // Block#: ,*o$b|mv+U:+6IYKF4W4
       if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_weightreadings.length, "GT", 0)) {
-        // Block#: d(-!wbhPsuhzVPu}SJf{
+        // Block#: }[LsQT/-[~Sr^Ws(SP^p
         _that.HealthDashboardLib_weightdays = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_weightreadings, String('$.[*].') + String('timestamp')));
-        // Block#: e~qJhWO?sfz1hvyOM#SD
+        // Block#: 2HD6[,$TMH_,G=5BAf#i
         _that.HealthDashboardLib_weightlist = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_weightreadings, String('$.[*].') + String('value')));
-        // Block#: F7JBx6MP;9[hyI?#6aW+
+        // Block#: 0fuiH0+2U++=(e|1GUN%
         var index_end18 = _that.HealthDashboardLib_weightlist.length - 1;
         var index_inc18 = 1;
         if(0 > index_end18) {
           index_inc18 = -index_inc18;
         }
         for(index = 0; index_inc18 >= 0 ? index <= index_end18 : index >= index_end18; index += index_inc18) {
-          // Block#: lycd!~SiMzI(!cdwDI:O
+          // Block#: ]=:,kh7u#^QQifbH_z)%
           _that.HealthDashboardLib_weightlist[index] = HealthDashboardLib__toPounds(_that.HealthDashboardLib_weightlist[index]);
         }
-        // Block#: *iCfA_P+0p@+`:6Kmi]1
+        // Block#: Pm;tSMCr`]zb:=!s/]tV
         _that.HealthDashboardLib_weightplot = (com.fc.JavaScriptDistLib.GraphContainer.createChartWithList('weightgraph', _that.HealthDashboardLib_weightdays, _that.HealthDashboardLib_weightlist, 'weight'));
         // Imported from Lib: StatisticsLibrary
-        // Block#: 3(9$Xue$Hs~fgRnuH$VX
+        // Block#: cTX^8ZM^iN{[c]9*-Z3%
         HealthDashboardLib__StatisticsLibrary__average(_that.HealthDashboardLib_weightlist).then(response => {;
           if(response.name === "value") {
-            // Block#: vlTXU}aMn?C3k.~]B,(!
+            // Block#: l%X-^_5nc;E(h0U4I.v{
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("avgweightvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data))));
           }
         });
         // Imported from Lib: StatisticsLibrary
-        // Block#: `nTym~X`]`FpmW0ZrSXj
+        // Block#: @%^*u:NtZ[{w{CAHXV{R
         HealthDashboardLib__StatisticsLibrary__max(_that.HealthDashboardLib_weightlist).then(response => {;
           if(response.name === "value") {
-            // Block#: g^}k*wxL$^80s.Eep`6Q
+            // Block#: Pr_zHYeg|08Y5g^`/|kg
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("maxweightvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data))));
           }
         });
         // Imported from Lib: StatisticsLibrary
-        // Block#: P[:DG(R0}Hj=g|rGY;U-
+        // Block#: |tcVlTR-}?);+3[1g%RX
         HealthDashboardLib__StatisticsLibrary__min(_that.HealthDashboardLib_weightlist).then(response => {;
           if(response.name === "value") {
-            // Block#: %%3Yj!@l(qCC)Nk$)JXx
+            // Block#: B3PBP;QG1XkHn+C~zd-y
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("minweightvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data))));
           }
         });
-        // Block#: (eau|0E{Q3Ikppx:ygj9
-        _that.HealthDashboardLib_weightplot // Block#: (p,21kS-(TSYoWCyfXKG
+        // Block#: 5C4kmwhINEPQB5SW+C8Z
+        _that.HealthDashboardLib_weightplot // Block#: NiP3GVKlwzU|b%HzEy,L
         com.fc.JavaScriptDistLib.GraphContainer.addChartTransition('weightgraph', 500, 500);
       }
     });
@@ -3017,12 +3017,12 @@ $(document).ready(function() {
   function s28HideObjects() {
     return new Promise(function(resolve, reject) {
       // Block#: 7`^[S:E[z*O_FP9-[Pu;
-      $('[obj-name="TA28Textarea"]').hide(); // Block#: 7$Bo^iOLOUbud~NpkA,9
-      $('[obj-name="B28Back"]').hide(); // Block#: Pu=@oye04ZT#r|#z]hFC
-      $('[obj-name="B28Cancel"]').hide(); // Block#: SL^3buDBe4dm;h_as+]E
-      $('[obj-name="B28Next"]').hide(); // Block#: =%et#y@p/R;_kjAp3J*^
-      $('[obj-name="B28Skip"]').hide(); // Block#: hrn,dpuvyK:6m;rgXkU)
-      $('[obj-name="L28Question"]').hide(); // Block#: .sYnGn_Wmzg+-BgUiM8[
+      $('[obj-name="TA28Textarea"]').hide(); // Block#: ZjFTh0XaT!z@P}-*Qc4E
+      $('[obj-name="B28Back"]').hide(); // Block#: L3xJ_CitRx=^r|5z#`*G
+      $('[obj-name="B28Cancel"]').hide(); // Block#: tH^oT*PeADKt4GIw7W7x
+      $('[obj-name="B28Next"]').hide(); // Block#: dL.IU.c%@9L*Nk+]l1q!
+      $('[obj-name="B28Skip"]').hide(); // Block#: U},4.%*4f`mI?)S-jv{N
+      $('[obj-name="L28Question"]').hide(); // Block#: F%M~U*t.?gPCjq!N@JYL
       $('[obj-name="L28Error"]').hide(); // Block#: caCF8i^E@p#i`@Z*Lx5f
       $('[obj-name="L28Title"]').hide();
     });
@@ -3145,13 +3145,13 @@ $(document).ready(function() {
    */
   function S22HideObjects() {
     return new Promise(function(resolve, reject) {
-      // Block#: eQakSW}eQFDfv-p33}Jw
-      $('[obj-name="B22Next"]').hide(); // Block#: 6i%X4l-sA,!L^eddpdr%
-      $('[obj-name="B22Back"]').hide(); // Block#: BsnDaC5l5]rWh~0eU(}n
-      $('[obj-name="B22Cancel"]').hide(); // Block#: 2PwtdZwh3laqr9+JW6ru
-      $('[obj-name="B22Skip"]').hide(); // Block#: ^r5X.]k5|r$_:~2VIb-K
+      // Block#: fL[^kpXoXJ_8_n1=g.NC
+      $('[obj-name="B22Next"]').hide(); // Block#: qV]4i~4e`:.kwQq^rvVa
+      $('[obj-name="B22Back"]').hide(); // Block#: *oMHj|t?]giSX1e4K$R5
+      $('[obj-name="B22Cancel"]').hide(); // Block#: 0Dld;Ug#{`|?#~ksA-tJ
+      $('[obj-name="B22Skip"]').hide(); // Block#: L5T|R~N034*tgXlCHk1;
       $('[obj-name="L22Question"]').hide(); // Block#: r9Vaob=QB!1YyAWRGyZy
-      $('[obj-name="L22Error"]').hide(); // Block#: iJ4V*T+mjIuGA/*K_k{J
+      $('[obj-name="L22Error"]').hide(); // Block#: 5/{v5~JT=~YEAorbH(+!
       $('[obj-name="L22Title"]').hide(); // Block#: gk,Qm|sNsd|VQ#g8k+*z
       $('[obj-name="T22Text2"]').hide(); // Block#: B]A[PRXy).*,R|@CO[0e
       $('[obj-name="T22Text1"]').hide();
@@ -3165,7 +3165,7 @@ $(document).ready(function() {
       // Block#: VxiCZH/avTGhzmC`L`3c
       S4HideObjects().then(response => {;
       });
-      // Block#: baOG)#?V*H1coz`klCpb
+      // Block#: Jj9OopSxG:[r;}wj@vtz
       _that.currentProperty = getOutcomeName('B4Back');
       // Block#: llmiE{tHe[3b),1~1GLU
       if(_that.currentProperty != null) {
@@ -3514,63 +3514,63 @@ $(document).ready(function() {
       // Block#: I%!uls.f4qj|e;2xkk#!
       s28HideObjects().then(response => {;
       });
-      // Block#: 3h3)]WaeZ+ym5!hk}0QH
+      // Block#: +7mkd|AsmKe5{FnQH/J2
       _that.currentProperty = getOutcomeName('B28Back');
-      // Block#: a}X,)Ep2fQ!I$0~%|cJ[
+      // Block#: NMG*wRNGB=csIRZdboww
       if(_that.currentProperty != null) {
-        // Block#: $DEv_W9vW]`WddiVx)21
+        // Block#: b3YbruCqAxqf8#=[Q!L5
         $('[obj-name="B28Back"]').show();
       }
-      // Block#: wWL0TMe}PbNdrajC0H*`
+      // Block#: ye4;-f-:wwamwHjFlj!t
       _that.currentProperty = getOutcomeName('B28Cancel');
-      // Block#: XrYkxTRSem/:JngA$Y]G
+      // Block#: 3/dbsj9F09!F-Rkn87Jk
       if(_that.currentProperty != null) {
-        // Block#: )0oVsYIE,I-{pv=+b^uR
-        $('[obj-name="B28Cancel"]').show(); // Block#: 3MXD!!Q1gnyOWb3!8wg1
+        // Block#: )88)TAsDUjZ`T9q*eHHl
+        $('[obj-name="B28Cancel"]').show(); // Block#: t[3DHt,s,+lb4Qr:60P,
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B28Cancel", _that.currentProperty);
       }
-      // Block#: _Tjd^YdSGQrq0)3@X+t@
+      // Block#: uu?^^BS-PV%0bX8?sz7s
       _that.currentProperty = getOutcomeName('B28Next');
-      // Block#: MX)5v}YwvyXj!BJH1RkA
+      // Block#: BKAYzdW;?L/wrXQX[Jj$
       if(_that.currentProperty != null) {
-        // Block#: 7DZS_+bR_$XaQE0c+?Q{
-        $('[obj-name="B28Next"]').show(); // Block#: )P@-ay$0j=/{a;j07mAN
+        // Block#: W#O}zXh[iC01SgvI~jD@
+        $('[obj-name="B28Next"]').show(); // Block#: Uy5g1Px4P_Toe(BBJw.;
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B28Next", _that.currentProperty);
       }
-      // Block#: R:3$AhA-B5#];MiR1IOg
+      // Block#: CTmfaA*kyxe2@d`y_]8%
       _that.currentProperty = getOutcomeName('B28Skip');
-      // Block#: $wi=u++k5zea5{zD+Gx@
+      // Block#: )Q7%hJsGp/FzHLNjgB,w
       if(_that.currentProperty != null) {
-        // Block#: H^)}ht@!ka|(1i@=ws`W
-        $('[obj-name="B28Skip"]').show(); // Block#: (YRlygN8iq,L^(#L1p~V
+        // Block#: +VEOK+Y]b79VyJPNY.EO
+        $('[obj-name="B28Skip"]').show(); // Block#: 7cS0ekxw;8lXT_XH$Go%
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B28Skip", _that.currentProperty);
       }
-      // Block#: hA{j,U8Xr)H7TV^OWDt!
+      // Block#: ~=4qY)Aj0BcnI^|Su++n
       _that.currentProperty = getFormProperty('title');
-      // Block#: #-[}$K3Db_clf~KGScoC
+      // Block#: O!!L_^x;E][:)4^OTvBa
       if(_that.currentProperty != null) {
-        // Block#: ?82)C]n@$$b,,0w{{@z1
-        $('[obj-name="L28Title"]').show(); // Block#: hfl7qVtgseyv9=[55)`c
+        // Block#: sG%SPci-;e3:R#OR3ey1
+        $('[obj-name="L28Title"]').show(); // Block#: T?^%{d,vTBXI-/)sd~ni
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L28Title", _that.currentProperty);
       }
-      // Block#: $S9caj|BWDt40JLFOg[t
+      // Block#: IaG2C-Brw0b!yO)Jz_K9
       _that.inputType = getFormField('answer1', 'type');
-      // Block#: C4tS;]H:b{.bL%}Mgak/
+      // Block#: {|*bsi)VB`XktJ}{=qvm
       if(_that.inputType != null) {
-        // Block#: zO}6=@65|BuEAl0JFXAO
+        // Block#: 0*aSVI/Pj/xx1YR|.G~2
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'boolean')) {
-          // Block#: !R$Yikx!YaO],W(%bMxK
+          // Block#: 7aQBdGpqj226nXC.sF2F
           _that.currentProperty = getFormProperty('question');
-          // Block#: wlE9HtfMPq?$Cm=5nL}2
+          // Block#: -M_W{oI~3hKrB;UT@?pU
           if(_that.currentProperty != null) {
-            // Block#: 12whd!eg@2ujy@J5-/`q
-            $('[obj-name="L28Question"]').show(); // Block#: bD]Z#@mh#!bog-q$cVC?
+            // Block#: (vQ-8*VDPc`(z%8/kN$p
+            $('[obj-name="L28Question"]').show(); // Block#: g=!?3-NqC6I]S.o-t%[I
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L28Question", _that.currentProperty);
           }
         } else {
-          // Block#: o%:/mdd$ehZk^RNliTEU
-          $('[obj-name="L28Question"]').show(); // Block#: b;ceuPmmBq:9JHLW%f}~
-          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L28Question", (getFormField('answer1', 'name'))); // Block#: t|BZoP]EzYxI5-RLSKlc
+          // Block#: _9,({a1L[1nPdt;[S3LW
+          $('[obj-name="L28Question"]').show(); // Block#: GY#$]]AljT0ECg@+5D}%
+          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L28Question", (getFormField('answer1', 'name'))); // Block#: U9@{C)#!`lSl@r,.:O^c
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text') ||
             com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'password')
           ) {
@@ -3581,17 +3581,17 @@ $(document).ready(function() {
           }
         }
       }
-      // Block#: sGP+?B)*neR[6C[M2(iM
+      // Block#: a+4N?/3Z1rA]-G~cjY+S
       if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text') ||
         com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'integer')
       ) {
-        // Block#: BUWIq9Yq$=6F#A8;`DeQ
+        // Block#: h3+~cE8bF5I)6T(Uyapt
         _that.currentProperty = getFormField('answer1', 'value');
-        // Block#: t]%|nt}wf-)7;NF6{QbF
+        // Block#: f-O/U~Y#k,^{04JYcW{P
         if(!(_that.currentProperty == null)) {
           // Block#: @c+MdOO*$tdkGkyIwx~s
           $('[obj-name="TA28Textarea"]').show(); // Block#: uxJ(zQH)eWTpW@-yayaW
-          com.fc.JavaScriptDistLib.Textarea.setProperty["Text"]("TA28Textarea", _that.currentProperty); // Block#: ;`=Yt+7S5pL(v(!kb{3$
+          com.fc.JavaScriptDistLib.Textarea.setProperty["Text"]("TA28Textarea", _that.currentProperty); // Block#: ?O!~h$n0v3n.==?}hILO
           _that.selectionMade = true;
         }
       }
@@ -3982,41 +3982,41 @@ $(document).ready(function() {
    */
   function S22UpdateScreen() {
     return new Promise(function(resolve, reject) {
-      // Block#: 1pqNR)^Ql`9/*.[W3qx$
+      // Block#: Oj*LdQ$7{ObJV6{#9#{`
       S22HideObjects().then(response => {;
       });
-      // Block#: `b85kabKVEaB0F2{C!Q{
+      // Block#: hHTDz6agQWT]XONvdUtx
       _that.currentProperty = getOutcomeName('B22Back');
-      // Block#: O+$oM?4177)w=N_Exq_{
+      // Block#: qT.hxpy{Dx^$^;EnFy%]
       if(_that.currentProperty != null) {
-        // Block#: 9^pz~2$UuEyz;USTasMG
+        // Block#: yHT@2F$V(0[3O=MeP,*n
         $('[obj-name="B22Back"]').show();
       }
-      // Block#: c,o6zI($E$nv0e$|rnV#
+      // Block#: p,dbNrXfHK)72~j_;g:L
       _that.currentProperty = getOutcomeName('B22Cancel');
-      // Block#: flGX!1Bs8gsH_V{!Lu6$
+      // Block#: IN#M;XNws%EME~4V2vzD
       if(_that.currentProperty != null) {
-        // Block#: L(}F4^)rVL9v2xc3E]|@
-        $('[obj-name="B22Cancel"]').show(); // Block#: c9l2rfk!VHl1E;+5(#ln
+        // Block#: d!zd1J:j$CpadFx#qj(y
+        $('[obj-name="B22Cancel"]').show(); // Block#: O73lDBhTUbXZ]p+3{70m
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B22Cancel", _that.currentProperty);
       }
-      // Block#: ]y-EG4VRhj0Cg6?9fORj
+      // Block#: 83h[TEHYW7cpsE%I9}{h
       _that.currentProperty = getOutcomeName('B22Next');
-      // Block#: f(`[le5$T_+S=*72B`$a
+      // Block#: ;QV7fyV;2v9_)3m8^US5
       if(_that.currentProperty != null) {
-        // Block#: BFEOG7$k[?~QDM/d^kJq
-        $('[obj-name="B22Next"]').show(); // Block#: Aw_L])!h(JN;dhawjtt3
+        // Block#: 2*#1Zwo{pa5[G^Li3kYL
+        $('[obj-name="B22Next"]').show(); // Block#: MU-{lP@a8J{Tl(l8vpv(
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B22Next", _that.currentProperty);
       }
-      // Block#: ,J4P/RE*uNcSnZ0!)dDW
+      // Block#: `?rRnlKShGI7p.W#IqNF
       _that.currentProperty = getOutcomeName('B22Skip');
-      // Block#: nLU=HX+Yfx`l/fZfeaqV
+      // Block#: q_eB6iipbZ|:2^RD0wcU
       if(_that.currentProperty != null) {
-        // Block#: ?Wx(pg22Z6N7Jx|,pJzL
-        $('[obj-name="B22Skip"]').show(); // Block#: vPZ7Bs{dkr5KBoZpo5uR
+        // Block#: W4d4pJ3{7JRZnoL/eLB.
+        $('[obj-name="B22Skip"]').show(); // Block#: A2e~p%*,kW))oSL}s-T/
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B22Skip", _that.currentProperty);
       }
-      // Block#: 0f`[kFCdx1R__jg[DV3=
+      // Block#: WgiNB;uj]sNOf3:[V2g:
       _that.currentProperty = getFormProperty('title');
       // Block#: V6ds?hR`YX7]YfSpE3V%
       if(_that.currentProperty != null) {
@@ -4047,9 +4047,9 @@ $(document).ready(function() {
         $('[obj-name="L22Units2"]').show(); // Block#: Tn,Hi:OB^^+}ubK(,qz`
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Units2", _that.currentProperty);
       }
-      // Block#: V`$gbx4L/HiJwMTk7l|j
+      // Block#: OaL9X(^LF3^0CCkhj@HL
       $('[obj-name="L22Question"]').show(); // Block#: KAS1Dew8owoEZd|=1HY,
-      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Question", (getFormField('answer1', 'name'))); // Block#: 5YA?C_LnKp|NeGlCn9a!
+      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Question", (getFormField('answer1', 'name'))); // Block#: P)?S}gNL(g,~z2Ve,_[e
       _that.inputType = getFormField('answer1', 'type');
       // Block#: v]5-Z44.)82NcWhVjPC7
       if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text')) {
@@ -4440,12 +4440,12 @@ $(document).ready(function() {
    */
   function s28CheckField(input) {
     return new Promise(function(resolve, reject) {
-      // Block#: gn*-/c[J:hh78VeV8uEi
+      // Block#: YBN`j_!G_R8_mqztbe|O
       _that.selectionMade = false;
       // Block#: /AbxMfkrv}Un*_Wx#*3a
       if(!!com.fc.JavaScriptDistLib.TextLib.textTrim(input)
         .length) {
-        // Block#: D}Tslyghc;!tn:o+w0Am
+        // Block#: ];yDE^L{EIIj,2DCUi[U
         _that.selectionMade = true;
       }
       // Block#: 0}y3Z2ptVz@0ylR3hJev
@@ -4501,13 +4501,13 @@ $(document).ready(function() {
    */
   function B25NextUpdate() {
     return new Promise(function(resolve, reject) {
-      // Block#: poGn9moR12JDyvkHysxa
+      // Block#: =Izbq6.2c:[${i}zX{fm
       if(_that.selectionMade) {
-        // Block#: n1z5m@KQgTwa0[EwCp5a
+        // Block#: =}.5V8[k.G-Y|Q}]6_vj
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B25Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e'))); // Block#: |**o%}2vo,xg!tl(+ck%
         com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B25Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e')));
       } else {
-        // Block#: C*f]]Qz,34*Glqra9rFm
+        // Block#: uoYcaf93qm|HPoNr2Q}z
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B25Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd'))); // Block#: JkjdRiuSHJh]m!-I,591
         com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B25Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd')));
       }
@@ -4904,13 +4904,13 @@ $(document).ready(function() {
    */
   function B23NextUpdate() {
     return new Promise(function(resolve, reject) {
-      // Block#: UZ,tjATb8oar=yYd-[#R
+      // Block#: dD4{pI4D*GjnU;D:(*;9
       if(_that.selectionMade) {
-        // Block#: w7[+#.Z/Mbs,/.fl,WzR
+        // Block#: R%r-`,*32+EO=iKlk*k_
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B23Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e'))); // Block#: Q5NmPA9mtoHW.Mq8yVnI
         com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B23Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e')));
       } else {
-        // Block#: I@}~k7uZu$OX#ud%O+IO
+        // Block#: 4+$7+s/.5_zMZyQE`lt%
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B23Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd'))); // Block#: Y?d+Mf5NTX#%um%ZavSv
         com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B23Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd')));
       }
@@ -4957,14 +4957,14 @@ $(document).ready(function() {
    */
   function b28NextUpdate() {
     return new Promise(function(resolve, reject) {
-      // Block#: duj]vvlfav!xQ8ZW-G(H
+      // Block#: !(/2aIbcO20T`*}bGd+u
       if(_that.selectionMade) {
-        // Block#: uaZ1|15d11}@Lq6[4xEY
-        com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e'))); // Block#: eHL#Lxu?3auuEuC8f/]Q
+        // Block#: bS)@Mi[OB6?`Bo~Tc)@|
+        com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e'))); // Block#: %ao.Gmw-uOA:J]],csk{
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e')));
       } else {
-        // Block#: 5KY9[r:`ghtqVh.];tu4
-        com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd'))); // Block#: YwSKpX;BmFn[VChLqA7u
+        // Block#: on`WN13C}2EOhJKl)2M7
+        com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd'))); // Block#: =5Af1vV+^AY}#/Qp]Yf;
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd')));
       }
     });
@@ -5553,21 +5553,21 @@ $(document).ready(function() {
       com.fc.JavaScriptDistLib.handleExceptionNative(e);
     }
   };
-  // Block#: MT-XtyHije}gT;{5s?Z|
+  // Block#: ?M;AWWm?ucUy3b]vuv.S
   function on_B23Next_click(e) {
     try {
       // Block#: ?;y2~p?v.XHKDY0:Foz5
       _that.nextClicked = true;
-      // Block#: IavQdZy[*NgIR)Lg]+.p
+      // Block#: A09V(y}FRJ=f}Nt*0Wp6
       if(!_that.buttonClicked && _that.selectionMade) {
-        // Block#: ]8RlY:HCJNje-(WX}s;f
+        // Block#: h^1PP:z|6!~80bmkW;7]
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text')) {
-          // Block#: u!9oe1ntx_d}=p[YH0W%
+          // Block#: nZ^082E8`8(yfm_{Wmy]
           setFormFieldByMapKey('answer1', 'value', com.fc.JavaScriptDistLib.Textbox.getProperty["Text"]("T23Text"));
-          // Block#: P|R[|,3pZGpp4taMSQYx
+          // Block#: (JUv[P7SWC|9IRiKoT,E
           _that.buttonClicked = true;
           // Block#: h7gikaWZU|5LWXUNw_`-
-          com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", true); // Block#: 6Js2BfR4cPjrEJ5wV%0(
+          com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", true); // Block#: fN-3=vSdJ-Ag9LPhqcxt
           _that.returnError = saveTaskAndNext(getOutcomeName('B23Next'));
         } else if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'integer')) {
           // Block#: PG#Ka4M8-j-C4[j9VJ|(
@@ -5611,16 +5611,16 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B23Next"]').on('click', on_B23Next_click);
-  // Block#: DAM$iCz?4WJ)|pibFFZf
+  // Block#: l*nSwmua#{Jq,#:KU/(+
   function on_screen_showS25AddMedication() {
     try {
-      // Block#: c?=M=JR={,D-vOFpnSO`
+      // Block#: M8@8.10Gm$4eif9g%Sz0
       _that.currentScreen = 'S25AddMedication';
       // Block#: mlH5JyUHQB9m0$Rgo7L9
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", false); // Block#: Ds30i*!Nrf,U1)b`)rZR
       if(_that.S25FirstDisplay) {
         // Block#: 8S{vS/CN{c!5qb~o;pWr
-        com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Add", 'Add Medication'); // Block#: !c}YbdzufBJe[+C~x9Q,
+        com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Add", 'Add Medication'); // Block#: rni[v_s[9fNVQLw,5i^8
         _that.selectionMade = false;
         // Block#: G7e9V#-h`m|a-C{ptSBF
         S25UpdateScreen().then(response => {;
@@ -5637,7 +5637,7 @@ $(document).ready(function() {
   // Block#: -e5jtst~`},s*7XtEPG[
   function on_screen_showS3BasicOrange() {
     try {
-      // Block#: Lm$y+d|mps!+`hSQphBd
+      // Block#: $^Js]qQasjzUo~K;=Aml
       _that.currentScreen = 'S3BasicOrange';
       // Block#: e!Zal#L-w[@eFA+,t~8U
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S3BasicOrange", false); // Block#: oAo!)Ban#NW*rv2$v)z-
@@ -5753,15 +5753,15 @@ $(document).ready(function() {
     }
   };
   com.fc.JavaScriptDistLib.Screen.screenDict['backS3BasicOrange'] = on_screen_back_button_pressS3BasicOrange;
-  // Block#: Y}(yv]*3qEoML~L}P3xv
+  // Block#: x]]9yk(}/VXRuX8Dytp/
   function on_screen_showS23SingleInput() {
     try {
-      // Block#: r+QRKB6lNvSkvdTcV~|}
+      // Block#: 0HMEMwUMecE1ut]7{,!4
       _that.currentScreen = 'S23SingleInput';
       // Block#: !dhG6f~x8SzLez4+N4Bz
-      com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", false); // Block#: U1kGtC`$R5`7O/KMv)ba
+      com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", false); // Block#: 8jN5jTaeu_(q1?lM.t?N
       com.fc.JavaScriptDistLib.Textbox.setProperty["Text"]("T23Text", ''); // Block#: yII,lXC7#|x~KMSYa~J)
-      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Error", 'Invalid input'); // Block#: u^#bEr)#SIS$-(8$oj`n
+      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Error", 'Invalid input'); // Block#: +5Yz+1O#18NYc/}{eOps
       _that.selectionMade = false;
       // Block#: m`so:_OB-jIMjZbsS7G7
       _that.nextClicked = false;
@@ -5804,7 +5804,7 @@ $(document).ready(function() {
   // Block#: CeFM,-@40)i?C8_Q9N,=
   function on_screen_showS15Webview() {
     try {
-      // Block#: $lw$?v??P4~ipfgYHW`z
+      // Block#: X~@5hplgCkU=EdCOqG=2
       _that.currentScreen = 'S15Webview';
       // Block#: doZ|;yz$.=PDY)3DuYWU
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S15Webview", false); // Block#: Z{u~65.3[(@-dtls:uHd
@@ -5857,22 +5857,22 @@ $(document).ready(function() {
   // Block#: guLZ!|A8oiSaqi~$t6;r
   function on_B21Cancel_click(e) {
     try {
-      // Block#: rim4k=JWu+#gOkN8Ql@0
+      // Block#: k$5seF0^_(Z?F#uAujA_
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: 0kE+|-RPd+OsApp@ZFbr
+      // Block#: S(B(JSrsO1y;,}=aC;Kr
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: k+tc;fi09_r5CEh3vH|Q
+      // Block#: 6c(1K,JWu5#/WG@{He6?
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: %`4Gre|@:,m3F|1`j1mS
       if(!_that.buttonClicked) {
-        // Block#: /TUE?zAasJM4aGeHXLfw
+        // Block#: #yOB0i7Ifp6I7Hvq,:_}
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: `wjLNXntru!tOW4GKSwl
+          // Block#: +*[7Y}@R%Q0E^%|Dj9@9
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: /GU,Dv8Cv$}*xYuzsV7O
             _that.buttonClicked = true;
             // Block#: :)nNj3{,5rF,syMXhH2W
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S21Pin", true); // Block#: Zgs)KYYv6E7S=F*E}Nhu
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S21Pin", true); // Block#: MtQX_~-eFiRx$$^/ENkq
             _that.returnError = saveTaskAndNext(getOutcomeName('B21Cancel'));
           }
         })
@@ -5994,10 +5994,10 @@ $(document).ready(function() {
     }
   };
   com.fc.JavaScriptDistLib.Screen.screenDict['backS17Profile'] = on_screen_back_button_pressS17Profile;
-  // Block#: T3cl,9;Q_/JdtOEy_6e4
+  // Block#: |#V=mrq]/BFmrS%{$[1y
   function on_screen_showS24Medication() {
     try {
-      // Block#: ;Od6`I^6|+@61B?qp)fH
+      // Block#: If^SC50(KLA4}=,K{tae
       _that.currentScreen = 'S24Medication';
       // Block#: 2m}9@cX5Gz=!KY|vwy6~
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S24Medication", false); // Block#: O%FvmLcf(vk1xP,!yJ~/
@@ -6005,7 +6005,7 @@ $(document).ready(function() {
       // Block#: A1(g=tX172RNQtcL.0$9
       setMedicationList().then(response => {;
       });
-      // Block#: 0z^bc`c;5BCb@t*M.c=1
+      // Block#: gI~{ZwGxi]3iIcmn/ro.
       _that.selectionMade = false;
       // Block#: ;+:dq!5MAr6|Y/j;c6^~
       _that.letterNumber = 0;
@@ -6095,7 +6095,7 @@ $(document).ready(function() {
   // Block#: ZH|[`!ahUW$!:l^.f%1C
   function on_screen_showS8Sharing() {
     try {
-      // Block#: cpXksa;y~UBBLvcW%piI
+      // Block#: 5F.J}ow_fh7hn99/6JIN
       _that.currentScreen = 'S8Sharing';
       // Block#: [#LDL@jlbJS/pFnLy4lQ
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S8Sharing", false); // Block#: OA5ud:Nt2#P_#U_aay:E
@@ -6152,15 +6152,15 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B2Next"]').on('click', on_B2Next_click);
-  // Block#: @EM{cd%f5_,PEv+MTTB;
+  // Block#: daDm#B_iP=+YXm2QzURD
   function on_B25Add_click(e) {
     try {
-      // Block#: FGH-6`U46VHTc5ywnMXG
+      // Block#: 7hB@#_#a3vzgEh1tH0YK
       if(!_that.buttonClicked) {
-        // Block#: @Z^46~!IFo?5L(fu]T0k
+        // Block#: +xo8h5D,[z+^oS1Nk,CV
         _that.buttonClicked = true;
         // Block#: G/7I1b:$El5I^c(V;/QX
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: @sxGGj5VCAL1rxM^?h|w
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: 36==Q~pf!Ty58}Z*5(i,
         _that.returnError = saveTaskAndNext(getOutcomeName('B25Add'));
       }
       e.stopPropagation();
@@ -6188,7 +6188,7 @@ $(document).ready(function() {
   // Block#: _wXBV@rSN(el:pA.r:@l
   function on_screen_showS12Email() {
     try {
-      // Block#: d):5BJkl=EE~#IvFLrZ~
+      // Block#: gokKg.;r/a7qj56Th/eP
       _that.currentScreen = 'S12Email';
       // Block#: ,?``[4i=wVZ(DS@]_oPj
       $('[obj-name="L12Error"]').hide(); // Block#: #lsI+D^s2a!m8^EfVHmC
@@ -6212,23 +6212,23 @@ $(document).ready(function() {
   };
   $('[obj-name="S12Email"]').on('show', on_screen_showS12Email);
   com.fc.JavaScriptDistLib.Screen.screenDict['showS12Email'] = on_screen_showS12Email;
-  // Block#: 7[QBGZ#kQYMqau)@C,FN
+  // Block#: *X:l~m5~M+BheOt39NRO
   function on_B22Next_click(e) {
     try {
       // Block#: y^2cX0KHtOU8[Z:TS`HP
       _that.nextClicked = true;
-      // Block#: W5(ttMKrjKQE[Ci!ad/a
+      // Block#: 9fI-gNCCskhLPp4.US]h
       if(!_that.buttonClicked && _that.selectionMade) {
-        // Block#: s^9I={pBY)[1lU6W+cp(
+        // Block#: AD`u.Iw_W;{_]$7YAxjI
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text')) {
-          // Block#: ++pNJ-Qc$$[kK4wWiHOa
+          // Block#: `.{4aznfz?9JctZ.%pB2
           setFormFieldByMapKey('answer1', 'value', com.fc.JavaScriptDistLib.Textbox.getProperty["Text"]("T22Text1"));
           // Block#: -|VN/cDMi|{~{Gr{@]%^
           setFormFieldByMapKey('answer2', 'value', com.fc.JavaScriptDistLib.Textbox.getProperty["Text"]("T22Text2"));
-          // Block#: P*pS5M4n2AivwBV3d=W~
+          // Block#: jw_-:|~NfPpINh;!z;!J
           _that.buttonClicked = true;
           // Block#: tp+Ce7P-23TDMi=GMu?l
-          com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", true); // Block#: N~jm)3pYN4q*1kU]n:GQ
+          com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", true); // Block#: A5rrQzbFDzx~u/OvoFX8
           _that.returnError = saveTaskAndNext(getOutcomeName('B22Next'));
         } else if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'integer')) {
           // Block#: e3-CzdI^#af5_^B(Bh@2
@@ -6285,20 +6285,20 @@ $(document).ready(function() {
       if(!_that.buttonClicked) {
         // Block#: z,fon%KmOY0s.SpDETh`
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(com.fc.JavaScriptDistLib.Button.getProperty["Text"]("B3Cancel"), "EQUAL", 'Cancel')) {
-          // Block#: (v~HA{+Sb#;x^KDyn3Cw
+          // Block#: D@2BH!7)@ts:OUlONmZb
           _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-          // Block#: 2/0EE:82~-FUS-L(L*9Q
+          // Block#: eqOy5m}:|@XAioTDNa]B
           com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-          // Block#: *vp9w9rW)M^Exup31,v1
+          // Block#: ?Sn/p.L2V.!|;JT-|s?9
           com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-          // Block#: A7}CoSsRo%-eF:)(z|DP
+          // Block#: ]y/im%[fz)t3{W[B=7yl
           com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-            // Block#: )=r7[uqNl_07,F:eJ;HV
+            // Block#: 5hq:~m1=v.v(+mqk_NwP
             if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
               // Block#: wGvQ-%`#C8n/f07$AX#$
               _that.buttonClicked = true;
               // Block#: m%FZ%xF#/XJYB{}pQ3MJ
-              com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S3BasicOrange", true); // Block#: 2soTv=K^R0^dDQF=g(V0
+              com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S3BasicOrange", true); // Block#: PldIz7mswS@1giNr4FfW
               _that.returnError = saveTaskAndNext(getOutcomeName('B3Cancel'));
             }
           })
@@ -6416,7 +6416,7 @@ $(document).ready(function() {
   // Block#: T`K!lcPiJ*,VW]1[]`E+
   function on_screen_showS4BasicPurple() {
     try {
-      // Block#: 0@x$]WIVG)K8nn|Pp=,d
+      // Block#: h+ATXJwzVN.`,TL=-(x-
       _that.currentScreen = 'S4BasicPurple';
       // Block#: c-7%v+PF}bOJB2f=lASL
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S4BasicPurple", false); // Block#: ?1T^RKx6*d2hqmC_1!(?
@@ -6433,15 +6433,15 @@ $(document).ready(function() {
   };
   $('[obj-name="S4BasicPurple"]').on('show', on_screen_showS4BasicPurple);
   com.fc.JavaScriptDistLib.Screen.screenDict['showS4BasicPurple'] = on_screen_showS4BasicPurple;
-  // Block#: MbUoB[BLxU494l_2?ZXU
+  // Block#: Al}~N,VvgF0a5HCF~,D@
   function on_B23Skip_click(e) {
     try {
-      // Block#: HMzQLA.pyWj(qgx_r,=n
+      // Block#: .ZKA}A-jO=)8^09:]^R{
       if(!_that.buttonClicked) {
-        // Block#: mRY$?=C$I]YlGh;v}}2q
+        // Block#: lIps![sl0_`r4`rCpo6j
         _that.buttonClicked = true;
         // Block#: A-TL}jGYBdt#%?+o{[qo
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", true); // Block#: 5NFkdMEMyxp,RIn$T79G
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", true); // Block#: 3^AQv%28EMmP2`r:0~Z!
         _that.returnError = saveTaskAndNext(getOutcomeName('B23Skip'));
       }
       e.stopPropagation();
@@ -6453,7 +6453,7 @@ $(document).ready(function() {
   // Block#: cIwLzlJ4N20WX30w1RHm
   function on_screen_showS26GraphDisplay() {
     try {
-      // Block#: RoN`Jx6ZqbhH*R3hs:sw
+      // Block#: F^j1B1c9ok/x{I/v577W
       _that.currentScreen = 'S26GraphDisplay';
       // Block#: b]p*@-,EQ]z6h!z5nNA$
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S26GraphDisplay", false); // Block#: 3H~D5pg~CLku|L}#ekEk
@@ -6471,7 +6471,7 @@ $(document).ready(function() {
   // Block#: g?KW3@fEq^|J0;9l`N(?
   function on_screen_showS20BasicInput() {
     try {
-      // Block#: K)Em2KyD_TPHAVd)0@7D
+      // Block#: IGP6EoyMvx#RnXQpW{9,
       _that.currentScreen = 'S20BasicInput';
       // Block#: _,I;TMo?W+-WsIPFw%g`
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S20BasicInput", false); // Block#: kusrdUGV:`DDW#uVq$Yu
@@ -6551,15 +6551,15 @@ $(document).ready(function() {
     }
   };
   com.fc.JavaScriptDistLib.ListView.setConfigCallback('LVC20Answer', on_listview_cell_configured_LVC20Answer);
-  // Block#: v,(6Nr?4~Vi@5OQZ@Jh^
+  // Block#: J}c_^5wzK52;S3RHt:D?
   function on_B24Done_click(e) {
     try {
-      // Block#: )w~DgR@_/T/*jjF!}tjo
+      // Block#: T~^^R`GKR~qK^qIn$[/z
       if(!_that.buttonClicked) {
-        // Block#: mE88oSS4T%|PNTTyB1l.
+        // Block#: AVSD*I#QvTtEPEeWQ-tx
         _that.buttonClicked = true;
         // Block#: o5E1U6l#_U0S+5Dpno[S
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S24Medication", true); // Block#: ,zue($v9nEi~e@BQErz]
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S24Medication", true); // Block#: 8V7bEgh.)]ENHjT+%31$
         _that.returnError = saveTaskAndNext(getOutcomeName('B24Done'));
       }
       e.stopPropagation();
@@ -6626,7 +6626,7 @@ $(document).ready(function() {
   // Block#: GNMXh2wh]u`7hUXhqX25
   function on_screen_showS14Learn() {
     try {
-      // Block#: K8X[r/2wU{U`]u{PbaQa
+      // Block#: uV;F7BD~c+}O@kZi=oXW
       _that.currentScreen = 'S14Learn';
       // Block#: eBD?3Gr+A,:X$8US}g2W
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S14Learn", false); // Block#: EljNFrRdBZNK?RBEZC7F
@@ -6673,7 +6673,7 @@ $(document).ready(function() {
   // Block#: 3+m[^/jSIjQvxp1AqdEd
   function on_screen_showS17Profile() {
     try {
-      // Block#: !JtcSrM)1Tp-?J4Xfv((
+      // Block#: T:+?D5B,}S8G(JVB_h-4
       _that.currentScreen = 'S17Profile';
       // Block#: @[]fQ@$N-ec(W6FxAL6s
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S17Profile", false); // Block#: *jL3Lj;BnjMH.;MqgA]Z
@@ -6886,15 +6886,15 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B4Back"]').on('click', on_B4Back_click);
-  // Block#: q4j]GFABKP;@n+9x:p~8
+  // Block#: $DOntr9*LLY|ckakoU]Y
   function on_B25Back_click(e) {
     try {
-      // Block#: i+qKo/7i0a;6nIbExZ]k
+      // Block#: @qe%,IGE8){ks/w:FHuD
       if(!_that.buttonClicked) {
-        // Block#: 1BTK,OYA-ZaX7BP4vbl:
+        // Block#: 02lr6{rb7Gt-36@4KxG=
         _that.buttonClicked = true;
         // Block#: :22*c)^hOMX_wGR`~nfT
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: b~@rr-DB}vs;PBj{GM}n
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: tIP~[,{dC0oPn:IV;4*A
         _that.returnError = saveTaskAndNext(getOutcomeName('B25Back'));
       }
       e.stopPropagation();
@@ -6920,16 +6920,16 @@ $(document).ready(function() {
       com.fc.JavaScriptDistLib.handleExceptionNative(e);
     }
   };
-  // Block#: m__2}0PAiM}ob8+^2kDK
+  // Block#: _jHDsjQ_gWOq%**a$#@z
   function on_screen_showS22DualInput() {
     try {
-      // Block#: ICPTphiGm7u5=PK_AOXE
+      // Block#: :2+UjnCVFy{)mU,70,7T
       _that.currentScreen = 'S22DualInput';
       // Block#: vmpbGN~Sbgrs;%D8W.Cl
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", false); // Block#: ?9+J@_5#Ac,|/M8VFprP
       com.fc.JavaScriptDistLib.Textbox.setProperty["Text"]("T22Text2", ''); // Block#: U:NBqIivI![SQ]U)l*Wj
       com.fc.JavaScriptDistLib.Textbox.setProperty["Text"]("T22Text1", ''); // Block#: ^v[$YK`XOnjv`h}lV}Iv
-      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Error", 'Invalid input'); // Block#: =Ma!foiaaz;-ye;7Z^)}
+      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Error", 'Invalid input'); // Block#: aV5OQj$#J08pLyE|_/;%
       _that.selectionMade = false;
       // Block#: KLE#ym73]ANCT||}M!=R
       _that.nextClicked = false;
@@ -7032,7 +7032,7 @@ $(document).ready(function() {
   // Block#: e1{Hhp50w]!f8)hzyYa0
   function on_screen_showS13Home() {
     try {
-      // Block#: sCcuN0mtp1lO3Pw^nzZ4
+      // Block#: }Kc^1)8/G=HUhQ:g[{/]
       _that.currentScreen = 'S13Home';
       // Block#: /]cG588ZKT^F-d.A%NP^
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S13Home", false); // Block#: ChExTH=.HC|qZ4e7iKY(
@@ -7048,10 +7048,10 @@ $(document).ready(function() {
   };
   $('[obj-name="S13Home"]').on('show', on_screen_showS13Home);
   com.fc.JavaScriptDistLib.Screen.screenDict['showS13Home'] = on_screen_showS13Home;
-  // Block#: Mc-]t^~a_%mx#xK;F![G
+  // Block#: c^jw*=wP4FwuaV?K{vBQ
   function on_screen_showS28TextAreaInput() {
     try {
-      // Block#: }I$!wt,~J}4J8f_iF+b[
+      // Block#: 3[0kW;FF~N=V+-#e35y|
       _that.currentScreen = 'S28TextAreaInput';
       // Block#: iO:+.%rQk|q4.(6Un|z(
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", false); // Block#: ,WcHxs((?0p#]S5A~*=N
@@ -7084,15 +7084,15 @@ $(document).ready(function() {
   };
   $('[obj-name="S2Qualification"]').on('show', on_screen_showS2Qualification);
   com.fc.JavaScriptDistLib.Screen.screenDict['showS2Qualification'] = on_screen_showS2Qualification;
-  // Block#: +e~0jRYxqmIutN@hxBvi
+  // Block#: #9q?|c2E}$J9ZwEz9Nt}
   function on_B23Back_click(e) {
     try {
-      // Block#: CEd?Vq|]]q*0@|$@Pmg$
+      // Block#: 2iE!P50MddpR`Vi;nSI,
       if(!_that.buttonClicked) {
-        // Block#: f+Z1#Ww-Oje%r^+um|+5
+        // Block#: IIEo,0d9.5][TWI2cJ)u
         _that.buttonClicked = true;
         // Block#: 4H,Y?]vd03(],f/+G^Pp
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", true); // Block#: 68ZheE;4glJ2bW3EmoRD
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", true); // Block#: /kW7*p{[ZX*T^6#KR*DK
         _that.returnError = saveTaskAndNext(getOutcomeName('B23Back'));
       }
       e.stopPropagation();
@@ -7104,15 +7104,15 @@ $(document).ready(function() {
   // Block#: }77zMJn|=/|?Jc-Sa3n4
   let on_screen_back_button_pressS28TextAreaInput = function() {
     try {
-      // Block#: mE[2B-vJ%eZ=lFQTeitf
+      // Block#: ;aTyIt3+@{I45:D1@5q2
       if(!_that.buttonClicked && ($('[obj-name="B28Back"]').is(':visible'))) {
-        // Block#: :Vq2U?UZ@PD1Wu4rATQ-
+        // Block#: gm,=AGXr^#gHh3)+Zwc`
         _that.buttonClicked = true;
         // Block#: .-5V`T?Av6A~93eoId#4
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", true); // Block#: DF_mbHrgDtf*~Fo^8`py
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", true); // Block#: OwN4SK5+^(Qyt=;*YXmx
         _that.returnError = saveTaskAndNext(getOutcomeName('B28Back'));
       } else {
-        // Block#: 8xC*Ou7M!*_;l~3_GFOG
+        // Block#: TNc6)K.~+0NLYCy!i[W]
         com.fc.JavaScriptDistLib.Application.sendToBackground();
       }
     } catch(e) {
@@ -7123,15 +7123,15 @@ $(document).ready(function() {
   // Block#: ~*:LVY#_gxUXGNp.%wUM
   let on_screen_back_button_pressS9Html = function() {
     try {
-      // Block#: 5?c?kv[2LHyZ+@qtAuXW
+      // Block#: dwRXXg)t/bFY*i(kRyZQ
       if(!_that.buttonClicked && ($('[obj-name="B9Back"]').is(':visible'))) {
-        // Block#: []1$q|[MsFn{9(m+*;YT
+        // Block#: ^ihKiXfidA;YwW%A;9:)
         _that.buttonClicked = true;
         // Block#: =C0/xMDw^PJ?^k9$/C%C
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S9Html", true); // Block#: VNLNJKLy3]zcI,3em-U=
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S9Html", true); // Block#: OaR2q{%SptCJyY%tpu|N
         _that.returnError = saveTaskAndNext(getOutcomeName('B9Back'));
       } else {
-        // Block#: zqq]{3I~@B1Tp)@!i!R2
+        // Block#: BZSj1)aKE,epdg%`L3u1
         com.fc.JavaScriptDistLib.Application.sendToBackground();
       }
     } catch(e) {
@@ -7234,7 +7234,7 @@ $(document).ready(function() {
   // Block#: h1Oh}oeVP.%UgbX?.iT3
   function on_screen_showS11Signature() {
     try {
-      // Block#: {oIH5X+OM=I$|sZ=1O@k
+      // Block#: rSS|:FV}J(+tYE{x%?5y
       _that.currentScreen = 'S11Signature';
       // Block#: :P4yN~g8SKM`/S0#*P5|
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S11Signature", false); // Block#: FwaKPUR^;yz,n+p(m62i
@@ -7261,7 +7261,7 @@ $(document).ready(function() {
   function on_screen_showS19Activities() {
     try {
       // Block#: V;ucYS/,+s9pt)d$Mk;6
-      com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S19Activities", false); // Block#: P]g*B%gx/S;I^Wls2d*6
+      com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S19Activities", false); // Block#: 1m?$2Iu4EgIFahc_/%#m
       _that.currentScreen = 'S19Activities';
       // Block#: +RA$Q%!=Jpl0aV@^P-c4
       findActiveInstances().then(response => {;
@@ -7530,25 +7530,25 @@ $(document).ready(function() {
     }
   };
   com.fc.JavaScriptDistLib.Application.registerEvent('in_background', on_in_background);
-  // Block#: K^q^_N:/#2wG,+2H}w`x
+  // Block#: ]W#K}TZ{5cqcSszU2;T6
   function on_B23Cancel_click(e) {
     try {
-      // Block#: a(36lpQtToCYp28$?S3C
+      // Block#: iY8bnAiVOnkUS6:Wno0u
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: psq8Rs|F~Iq)Ye7JeId$
+      // Block#: Mw7K(,M61HGSIF(3SNBo
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: N2utMPt*-w(L]tGS?OV[
+      // Block#: g|HSdv~9~TRriL73QESN
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: 4gv*lDQZispvy+_vbpm9
       if(!_that.buttonClicked) {
-        // Block#: AI9o/J$%(m@9M.6pN^u7
+        // Block#: dG^5429de=+p,?czhP/1
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: sl,)L{R:@?a0+YN:GmSW
+          // Block#: Jd{m,?0y_)!?z)6G~qU5
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: +x)6pphM]vZn,6`K3XI=
             _that.buttonClicked = true;
             // Block#: WU}c[,AnWMcOJl)2-t`!
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", true); // Block#: ng=LNYmoujJ78,/@M6@:
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S23SingleInput", true); // Block#: ]QglA#1@+n?,xKg]?5t3
             _that.returnError = saveTaskAndNext(getOutcomeName('B23Cancel'));
           }
         })
@@ -7618,7 +7618,7 @@ $(document).ready(function() {
         // Block#: x_x{{i|`2z9O[vCOWfnz
         _that.buttonClicked = true;
         // Block#: cThb(S#:#,(m5d6W`o^u
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S14Learn", true); // Block#: [0U4|#wF8,L1IP6*?lNj
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S14Learn", true); // Block#: 6(_tj(g+/#8|_f{K/1CX
         _that.returnError = saveTaskAndNext(getOutcomeName('B14Back'));
       }
       e.stopPropagation();
@@ -7646,7 +7646,7 @@ $(document).ready(function() {
   // Block#: ZOdu04;[d~;8nWeog($g
   function on_screen_showS9Html() {
     try {
-      // Block#: KONQuAoa0ou9sV)6aWbo
+      // Block#: ;AKjLwBf+8HWK/l?L`pn
       _that.currentScreen = 'S9Html';
       // Block#: 30xR!Kp$j.[bcg=$w2k5
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S9Html", false); // Block#: ]o^Y:Q6u6F05R-p-sd1w
@@ -7666,19 +7666,19 @@ $(document).ready(function() {
   // Block#: Djm)PnO`R|F8J1l_~Z9T
   function on_B28Next_click(e) {
     try {
-      // Block#: !G+t.dVm^Q^1l)tFIx_a
+      // Block#: b0xc@TN+}`v!0#-3BWM.
       if(!_that.buttonClicked && _that.selectionMade) {
-        // Block#: B5Jb^x{/YLtDk#|PnGhu
+        // Block#: 2v)8tYa#08HF*6dgUx5*
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text') ||
           com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'integer')
         ) {
-          // Block#: Kr*A6+HJ^8X~[W{,wzlt
+          // Block#: k-,{:(k1ycV]pC^3wdQ2
           setFormFieldByMapKey('answer1', 'value', com.fc.JavaScriptDistLib.Textarea.getProperty["Text"]("TA28Textarea"));
         }
-        // Block#: esPA%s0gRY/5vmHsr*rM
+        // Block#: Zf_TWW8/NRR$]VI%:p*o
         _that.buttonClicked = true;
         // Block#: vHg0^jD(S$(gS!|V9|v]
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", true); // Block#: ),6I/tYu6|C#BXocmkn~
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", true); // Block#: 5OlSl)bHa5Q8P5VdHl~J
         _that.returnError = saveTaskAndNext(getOutcomeName('B28Next'));
       }
       // Block#: lC-12zpr_5X#0wkqUp)y
@@ -7821,20 +7821,20 @@ $(document).ready(function() {
       if(!_that.buttonClicked) {
         // Block#: ?c$J.g0DUN1.sbr}Rg6o
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(com.fc.JavaScriptDistLib.Button.getProperty["Text"]("B4Cancel"), "EQUAL", 'Cancel')) {
-          // Block#: p,dv/LrQK)dS8CSAik9W
+          // Block#: h6p=Jvvqk}=:0cK@=b%1
           _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-          // Block#: 5skT1YO$92cnMGqYplb)
+          // Block#: dj0oq/0F2C0|,UA6x55b
           com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-          // Block#: B8QC~F1$E!}034OSfE-)
+          // Block#: UCw(-k]-QMxQx92{crt*
           com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-          // Block#: y]p/:8HQeB]vtE`9`11r
+          // Block#: UpwK.*o:V/=KFV2$QQ;r
           com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-            // Block#: aUp_0=3_deB;FVYl28ZH
+            // Block#: s]P^xo@osYf}atl+ali=
             if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
               // Block#: ni:?/oakRxy!H/hgz@Oe
               _that.buttonClicked = true;
               // Block#: O2Hm{K5]chM4k@N=I2Rv
-              com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S4BasicPurple", true); // Block#: ]i7?uX(/9vTXAo:mWL^h
+              com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S4BasicPurple", true); // Block#: ZK)mmlE6,V]L}-czCnyZ
               _that.returnError = saveTaskAndNext(getOutcomeName('B4Cancel'));
             }
           })
@@ -7855,22 +7855,22 @@ $(document).ready(function() {
   // Block#: [J-$2,,9k!/x)yjKgqC(
   function on_B11Cancel_click(e) {
     try {
-      // Block#: @24G?Q%7Pt~zB,5FFtg@
+      // Block#: gy=W?.h91xB/s]#*9d=g
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: ?K]@v_(nSQGj~^.wMA9:
+      // Block#: b}+Gl0oezUQ]99T7{En6
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: Z@04(9UmFnP^h_TUfGxh
+      // Block#: A,El9JVZ;-z|M$bphn7_
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: Q?|TJwoZbh!YvuFNZmhO
       if(!_that.buttonClicked) {
-        // Block#: Gz=C(90z1mTyu%y;qaYT
+        // Block#: ~kK%x6_b]t$xHV~;$Ij_
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: (5jaz9zChZ/3:]34fFqw
+          // Block#: 0*mU#X5L`$0L8*Vtx(GT
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: Gx7/h9`m?%z-x8:7BK*v
             _that.buttonClicked = true;
             // Block#: /e1m/mp!TkC!H+X%|0Pu
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S11Signature", true); // Block#: DKQ[3%oCBGz5HaU/g:}I
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S11Signature", true); // Block#: )?nsTz/Nd*R4]0{u~e$-
             _that.returnError = saveTaskAndNext(getOutcomeName('B11Cancel'));
           }
         })
@@ -7930,25 +7930,25 @@ $(document).ready(function() {
     }
   }
   com.fc.JavaScriptDistLib.ListView.setClickCallback('LVC24Medications', on_listview_cell_clicked_LVC24Medications);
-  // Block#: :7k06rVTUnGEc^P6R:o=
+  // Block#: IB0{z*oH!v!At(oE]xz]
   function on_B25Cancel_click(e) {
     try {
-      // Block#: {1KXtbUP@R0%Rk7P,.)c
+      // Block#: zKR^$,vHYcgq4e?+=WWe
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: ~C-,~l^zqi@yHoY)Wk`7
+      // Block#: oZH*=U69?LV?nKQmJ+}5
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: cs]n}{soOc*(~?xjH0nv
+      // Block#: s8qxNoyM*OX5}]r-]2,F
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: jp5%;R/*.Lm0?wk}zh#6
       if(!_that.buttonClicked) {
-        // Block#: b(Xz{%@tgr:gVg$.`g=E
+        // Block#: $F;t,kdNzPQMh[wKsovu
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: nnW[W3!f_*sh+box!-Sx
+          // Block#: .@*YL4U|jV0s8upN=6.{
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: cs~]f/(*f4hhK7DPGVL+
             _that.buttonClicked = true;
             // Block#: ,TSsgfK*/Dc1~AWg1VD#
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: i0k1#*M+l1wXh!K0-)^2
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: tH@e*p:{TFNm2v9o;v*#
             _that.returnError = saveTaskAndNext(getOutcomeName('B25Cancel'));
           }
         })
@@ -8003,15 +8003,15 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B17Cancel"]').on('click', on_B17Cancel_click);
-  // Block#: CtkGmJ0})|$0Zr$Zj6Z$
+  // Block#: ^|Dkp7j#pB0L(pq4+s9V
   function on_B22Skip_click(e) {
     try {
-      // Block#: ZT)oyyz5B9VO+=G8CX|-
+      // Block#: Z*yy~agJ%aSWjg%EIv]{
       if(!_that.buttonClicked) {
-        // Block#: `]`ewC9=GVE70r=p.:7p
+        // Block#: M^Q1THpV1%L7(8/TiT/F
         _that.buttonClicked = true;
         // Block#: `wkmFr7pbfIcaJKiBBIF
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", true); // Block#: rf/|Q-V?bsL!BT5G!M9m
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", true); // Block#: h#P:W%rH7CGU{mTwGXgu
         _that.returnError = saveTaskAndNext(getOutcomeName('B22Skip'));
       }
       e.stopPropagation();
@@ -8060,20 +8060,20 @@ $(document).ready(function() {
     try {
       // Block#: YCr!ZE.oKdC/4eApgb4w
       if(!_that.buttonClicked) {
-        // Block#: iD1`czXO[cf!Xsp]L(3@
+        // Block#: )U-6Xc-aa|_PrSv/0v(!
         _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-        // Block#: Hq@tsJuG:dA|-,@++P0$
+        // Block#: W#VP{MD8;EWkLv@4R,Y]
         com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-        // Block#: IT9hJaHxc@$Ot*BA;qno
+        // Block#: ^%p`bTWgKKC^RSoHP(}7
         com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-        // Block#: Xh9-7-@d0[2I{~)H|7p:
+        // Block#: W*.$Zh1vo(S|aT`WC;A|
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: {`)+1J6ol;Y(.4qR.~72
+          // Block#: CE^=S2SpTMcy{)JR{iXi
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: g+zpBlrIg2CTcN)U;I-O
             _that.buttonClicked = true;
             // Block#: /y?RI2Bm__@1gW`5*_):
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S9Html", true); // Block#: K3lzjLenALvEgYxwa!^L
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S9Html", true); // Block#: N+n|lp(39gZ--2V59I@V
             _that.returnError = saveTaskAndNext(getOutcomeName('B9Cancel'));
           }
         })
@@ -8163,20 +8163,20 @@ $(document).ready(function() {
     try {
       // Block#: *x@4|Vcg:Fzo05`=O,|c
       if(!_that.buttonClicked) {
-        // Block#: UW`f7$.`Kq#)V$x%*f$e
+        // Block#: ncZvX)V2n]:OBq%TZjNc
         _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-        // Block#: wrTiJr]0./UJn!t_t0+d
+        // Block#: IYTY1tpAGRJ+{Mk|koC)
         com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-        // Block#: tW2VYNa$sZ}.0blZ=I13
+        // Block#: ,X10w$n=9Z0y`pwvfK!E
         com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-        // Block#: Z3G5]3FYil9RAD57(agh
+        // Block#: Dm0|@=,B3b;tV*18Ob1L
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: Ds%p3wkbI8`pvd!urY)?
+          // Block#: L[s8Fpi#*PMp[mxzYGKN
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: K%;=Jh9#f||:xDdU)#Zy
             _that.buttonClicked = true;
             // Block#: Qum|d:_NEU1[RH$wpZJ2
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S8Sharing", true); // Block#: rGOhI*LEX$BFmU/0TL$@
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S8Sharing", true); // Block#: N0kFQ`QXCC}cl-_W2rZf
             _that.returnError = saveTaskAndNext(getOutcomeName('B8Cancel'));
           }
         })
@@ -8280,22 +8280,22 @@ $(document).ready(function() {
   // Block#: WW#GN7f_[trA1mbtz_D2
   function on_B26Cancel_click(e) {
     try {
-      // Block#: /VDw?l,i2hy@Sn:@qd]w
+      // Block#: T0,o/8trY;-w?e^R`aBB
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: -6%.p1e0B$=GJ@Lt~)#x
+      // Block#: QTIDnthU08b0SJnZn:G{
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: i}O|!YT#~`gWxn;.P[5Q
+      // Block#: AM#PLGUq%?B98bH{|yzi
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: ;]O2HL|iaX2di$t$ecyF
       if(!_that.buttonClicked) {
-        // Block#: dNJ-WC=7iF5MzoyWw)84
+        // Block#: h3R=[wCcwL67e?nf$ZL;
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: .gD+s8,Ig}oe5]rP4=*!
+          // Block#: $(@k3HD80(+:`]%U!_D6
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: [sX;mhysgO*.-ikIVTZt
             _that.buttonClicked = true;
             // Block#: ksgfmZKavsrJ+eV{5xM2
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S26GraphDisplay", true); // Block#: +aFe~-USigeET-v?s^|[
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S26GraphDisplay", true); // Block#: N%k5Pmp;G?mf}{#5I;H}
             _that.returnError = saveTaskAndNext(getOutcomeName('B26Cancel'));
           }
         })
@@ -8306,15 +8306,15 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B26Cancel"]').on('click', on_B26Cancel_click);
-  // Block#: VXk{-hl[vo@m#r;n#6#=
+  // Block#: O{w|GNc{1{F1e!F*goUh
   function on_B22Back_click(e) {
     try {
-      // Block#: Z:djUHr#=#q+T[JA[78w
+      // Block#: OA./bK~io]8eqg?b5@C[
       if(!_that.buttonClicked) {
-        // Block#: k5P(}cBWrcSVf6vfr%CZ
+        // Block#: ,I,/kEy:xi6xj!vz-5IY
         _that.buttonClicked = true;
         // Block#: c2G=,XpKrM9sf$Gl3?qL
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", true); // Block#: f`ed]s9Gr@^G[kp#l5;o
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", true); // Block#: zs|{TT02dEZ5E].Rk==J
         _that.returnError = saveTaskAndNext(getOutcomeName('B22Back'));
       }
       e.stopPropagation();
@@ -8326,12 +8326,12 @@ $(document).ready(function() {
   // Block#: t4*P6(%eT|v#bDFvZnaD
   function on_B28Skip_click(e) {
     try {
-      // Block#: lhWe6k%{*(%fV,Zn)^l]
+      // Block#: T.DOJi]Gb3c${2/_zoCj
       if(!_that.buttonClicked) {
-        // Block#: lR+uN*NxE1$:U$-V==]h
+        // Block#: B9K4r,5tC:]YA6{|(EQI
         _that.buttonClicked = true;
         // Block#: 3{.dCzY*D3s{27Zwmb%8
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", true); // Block#: Ui}?]@7j51-]u,rZciB;
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", true); // Block#: itrLe(+wS@1fJ7tx4F-]
         _that.returnError = saveTaskAndNext(getOutcomeName('B28Skip'));
       }
       e.stopPropagation();
@@ -8347,20 +8347,20 @@ $(document).ready(function() {
       if(!_that.buttonClicked) {
         // Block#: r_r;nnRqXw1PD8^dYcp_
         if(!_that.isLoggingIn) {
-          // Block#: [%}J~=d.$ufz%54!+%cT
+          // Block#: JO9Tr|AQU+Wzg{#vNINL
           _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-          // Block#: F*DuJY)Zcz)@P,@EAeYU
+          // Block#: ctzkg.vq#~a)=Ch~r9L:
           com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-          // Block#: .d]Y7DrA4m}Skh(xNzwn
+          // Block#: F=]2F:}*RwE1-Z1fen9*
           com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-          // Block#: 7p~hjE,BU#a$pL,3+-Gh
+          // Block#: DD.|WFnpvp0OVkRRQpb=
           com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-            // Block#: T4HWq*E3Ccv/Mk@c*+:K
+            // Block#: Z5x/fWqRO%QrF4rg2{wd
             if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
               // Block#: gj@9VUw{@7;V|k.x%(Tv
               _that.buttonClicked = true;
               // Block#: o+58L?mFdh}ju*a*PHlf
-              com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S12Email", true); // Block#: 1Vp{L5[S|.~q?XnC{Pl`
+              com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S12Email", true); // Block#: *MY!:v,HUb#_X(mIaN,G
               _that.returnError = saveTaskAndNext(getOutcomeName('B12Cancel'));
             }
           })
@@ -8385,13 +8385,13 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B12Cancel"]').on('click', on_B12Cancel_click);
-  // Block#: muXRg,_hJg-`iAObT-WF
+  // Block#: xI1fZ(,h.{.a5r/vACE$
   var elemSelector = '[obj-name="T23Text"]';
   var originalText = $(elemSelector).find("input").val();
   $(elemSelector).find("input").on('input', function(e) {
     var oldText = originalText;
     var newText = $(this).val();
-    // Block#: t85a]f4Jt?mzW=*c!(ZB
+    // Block#: }Load3fA1I)f(tD!,E-f
     _that.selectionMade = false;
     // Block#: h;RV%WVv-h6LTq3f8PO.
     $('[obj-name="L23Error"]').hide(); // Block#: =V|}$djvt4LKriA)=7J@
@@ -8626,25 +8626,25 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B2Q3Yes"]').on('click', on_B2Q3Yes_click);
-  // Block#: |HY`SL{#*TYy*^{4Rz97
+  // Block#: u}N_P?H-T=7L+Mj1KD*`
   function on_B22Cancel_click(e) {
     try {
-      // Block#: a$)=/t3j9`h!L{nP8V8p
+      // Block#: 3-x2/*v49]e]jHdjV{sH
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: %}=Y`8TZzDQG}p5SxM9)
+      // Block#: bC`m4Q~5=FW8*WY32h2z
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: sdXMwf^Xd~xRT_t(nM06
+      // Block#: x^}M^@`jUx8kM.8qfZ[i
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: d9rzCZamz!c}ydq7R#:X
       if(!_that.buttonClicked) {
-        // Block#: !oaD~mInOhz)C4PbD~Pq
+        // Block#: A1@wz/*OiZ6^.r+eh`dp
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: nG{u-Cwtg7}X0`zyMpf]
+          // Block#: w#m{GI`(|:vfh_Z`ctmx
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: RfrxUqVkN:Cek2iv[be9
             _that.buttonClicked = true;
             // Block#: OjYD~{S#hnd0W-:1?ce4
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", true); // Block#: 5^3oY}Q=A{}YuzFO1XN4
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S22DualInput", true); // Block#: *%Kmnfxy`G[wQC0i,],A
             _that.returnError = saveTaskAndNext(getOutcomeName('B22Cancel'));
           }
         })
@@ -8957,12 +8957,12 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B2Q4No"]').on('click', on_B2Q4No_click);
-  // Block#: +@S?s3Eo^{5^y,:whhy+
+  // Block#: pUMEy=Vl)CWe.W0f,U4?
   function on_B25Next_click(e) {
     try {
       // Block#: !pY~L5,8C#/h:CfS-Cp!
       _that.selectedMedsCsv = '';
-      // Block#: 9$!bzSd9k;zE5Pb}pl7Q
+      // Block#: bhfxE,3*HJdUNxq6t2pH
       if(!_that.buttonClicked && _that.selectionMade) {
         // Block#: 9Gq4B)989}Q9Dfp`deP)
         var index_end19 = _that.selectedMeds.length - 1;
@@ -8997,22 +8997,22 @@ $(document).ready(function() {
   // Block#: :*ppsFA%JreVomn]p9-,
   function on_B28Cancel_click(e) {
     try {
-      // Block#: KG=-1~|`dKkN@CA$xGRa
+      // Block#: VuGUMAtW=_e/7E5iiN[I
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: TAeHe[St6G+E?3+pZeP?
+      // Block#: Q)Lq$,`3-1+vOh2Q]!Ii
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: dbnv8@9aI%)haZb9:@?)
+      // Block#: ~X65/`1GDhERY[E9`^G$
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-      // Block#: AG:`A4SDM[.9-}^$r?U4
+      // Block#: 7i1XslwX$GI:Gj@zr9~E
       if(!_that.buttonClicked) {
-        // Block#: h8fq%,IR+5!z:5kly)j0
+        // Block#: :#pzGtg0/lvqcs#S7Pf4
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: y{?-NcHRarI3C,ngHN+m
+          // Block#: ;dM7(x8`5[5g;!2?0D2#
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
-            // Block#: WZ#1!v(Jv}WXQYgV_J?l
+            // Block#: nxgV1sm$UmrG`b]Hro/c
             _that.buttonClicked = true;
             // Block#: IRhf!:]l*WZ/lkE4ppFm
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", true); // Block#: lIPTQh_?;^)/y~ekdR8,
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S28TextAreaInput", true); // Block#: gj/ycp+#.XSez`KBI}+0
             _that.returnError = saveTaskAndNext(getOutcomeName('B28Cancel'));
           }
         })
@@ -9116,22 +9116,22 @@ $(document).ready(function() {
   // Block#: TQi{D;=0*foI,DOZ`Z*_
   function on_B20Cancel_click(e) {
     try {
-      // Block#: /s9}l|sp+Vt64g@PuI{.
+      // Block#: rSEeW2qqty0Re$#BiS`b
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: =Wx7z!7Hz;C9Ncew[uI,
+      // Block#: jm7A@y+{]G*T|1^)9Jau
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: ,Xq.sLp/]*0[|,y+tu~L
+      // Block#: ^7UG,CFwPO_M/ZH#_.o|
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: ?!lOx1yd|x+^V]ruy58m
       if(!_that.buttonClicked) {
-        // Block#: P0A1uX@N]-_hPB`)4fxq
+        // Block#: ~pRWRcDyABq=5KTgWG(V
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: U=2)q8XDe(a!k/dqU|O!
+          // Block#: Lj-jJd*eRy=uq,XGk}4V
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: 3B40L?;)-syhgx68xEhf
             _that.buttonClicked = true;
             // Block#: w4o,qsxLLBj/b?LACMH-
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S20BasicInput", true); // Block#: g9j6cnD~)lwArLda3=H}
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S20BasicInput", true); // Block#: ,m$~!HD@9Y5V6#}#*]*e
             _that.returnError = saveTaskAndNext(getOutcomeName('B20Cancel'));
           }
         })
@@ -9614,4 +9614,4 @@ $(document).ready(function() {
   $('[obj-name="SplashScreen"]').show();
 });
 // Generated by snapp
-// 694115-263890-523352-211039
+// 247280-242716-142750-148758
